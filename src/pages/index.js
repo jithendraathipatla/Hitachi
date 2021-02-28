@@ -70,7 +70,7 @@ const IndexPage = () => {
           <Titlecomponent title="About Preigewaterford" />
         </div>
         <div css={overview}>
-          <div>
+          <div css={gimage}>
             <Img
               fluid={data.placeholderImage.childImageSharp.fluid}
               alt="Waterford Image"
@@ -257,4 +257,10 @@ const two = css`
       height:400px;
     }
   }
+`
+
+const gimage = css`
+@media(max-width:600px){
+  display:none;
+}
 `
