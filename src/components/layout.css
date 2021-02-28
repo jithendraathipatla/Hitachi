@@ -1051,3 +1051,12 @@ a.button:hover {
   height: 39px;
   margin-top: 12px;
 }
+
+
+@media all and (max-width: 600px){
+  .gatsby-image-wrapper{
+   
+    height: 410px !important;
+  }
+}
+
