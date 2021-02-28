@@ -101,12 +101,17 @@ const one = css`
   background: #fff;
 `
 const imgone = css`
- display: none;
+  display: none;
+  @media (max-width: 600px) {
+    display: block;
+
+    padding-top: 26px;
+    margin-right: 23px;
+    margin-left: -8px;
+  }
 `
 
-const imgtwo = css`
-
-`
+const imgtwo = css``
 
 const image = css`
   img {
@@ -116,6 +121,9 @@ const image = css`
     margin-top: 2px;
     padding-left: 15px;
     object-fit: cover;
+  }
+  @media (max-width: 600px) {
+    display: flex;
   }
 `
 

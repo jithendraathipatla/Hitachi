@@ -1,5 +1,7 @@
 body {
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .active {
   color: #a88944 !important;
@@ -938,11 +940,15 @@ a.button:hover {
   }
 
   .carousel-captiona h3 {
-    font-size: 1rem;
+    font-size: 0.91rem;
+  }
+
+  .carousel-captiona h2 {
+    font-size: 0.91rem;;
   }
 
   .carousel-captiona h4 {
-    font-size: 1rem;
+    font-size:0.91rem;;
   }
 
   .carousel-captiona h6 {
@@ -1035,4 +1041,13 @@ a.button:hover {
   .scroll-downs {
     top: 90vh;
   }
+}
+
+.controlabcd {
+  display: flex;
+}
+.controlabcd select {
+  margin-right: 19px;
+  height: 39px;
+  margin-top: 12px;
 }

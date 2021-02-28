@@ -31,10 +31,10 @@ const Tabel = () => {
             </td>
           </tr>
           <tr>
-            <td>3 BHK Small</td>
+            <td>3 BHK </td>
             <td>
               <Link to="/contact">
-                <a class="modalbuttonsmall"> Know More </a>
+                <a class="modalbuttonsmall"> 1775 sq.ft </a>
               </Link>
             </td>
             <td>
@@ -44,10 +44,10 @@ const Tabel = () => {
             </td>
           </tr>
           <tr>
-            <td>3 BHK Large</td>
+            <td>3 BHK Premium</td>
             <td>
               <Link to="/contact">
-                <a class="modalbuttonsmall"> Know More </a>
+                <a class="modalbuttonsmall"> 2027 sq.ft </a>
               </Link>
             </td>
             <td>
@@ -60,7 +60,7 @@ const Tabel = () => {
             <td>4 BHk</td>
             <td>
               <Link to="/contact">
-                <a class="modalbuttonsmall"> Know More </a>
+                <a class="modalbuttonsmall"> 2525 sq.ft </a>
               </Link>
             </td>
             <td>
