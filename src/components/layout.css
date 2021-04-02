@@ -1093,6 +1093,7 @@ a.button:hover {
   background-size: 400% 400%;
   border: none !important;
   width: 100% !important;
+  position: relative;
 }
 
 .react-responsive-modal-modal {

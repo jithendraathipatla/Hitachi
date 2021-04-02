@@ -15,6 +15,7 @@ import AmenititesComponant from "../components/amenitiescomponant"
 import SliderComponant from "../components/slider"
 import GalleryComponent from "../components/gallery"
 import SiteAndFloorPlanComponent from "../components/siteandfloor"
+import PricingComponent from '../components/pricing'
 
 const IndexPage = () => {
   const [isShown, setIsShown] = useState(false)
@@ -126,6 +127,9 @@ const IndexPage = () => {
       </div>
       <hr />
       <div>
+      <div style={{ textAlign: "center" }}>
+        <Titlecomponent title="Waterford Configuration" />
+      </div>
         <Configirationcomponant />
       </div>
       <hr />
@@ -140,7 +144,13 @@ const IndexPage = () => {
         <GalleryComponent />
       </div>
       <hr />
-
+      <div>
+      <div style={{ textAlign: "center" }}>
+          <Titlecomponent title="Waterford Pricing" />
+        </div>
+        <PricingComponent/>
+      </div>
+      <hr/>
       <div>
         <AmenititesComponant />
       </div>

@@ -1,15 +1,11 @@
 import React from "react"
-import TitleComponent from "./titlecomponent"
+
 import { css } from "@emotion/core"
-import Modal from './modal'
+import Modal from "./modal"
 
 const Tabel = () => {
   return (
     <div>
-      <div style={{ textAlign: "center" }}>
-        <TitleComponent title=" Waterford Configuration" />
-      </div>
-
       <table className="table-is-bordered">
         <thead>
           <tr
@@ -33,17 +29,23 @@ const Tabel = () => {
           <tr>
             <td>3 BHK </td>
             <td>1775 sq.ft</td>
-            <td><Modal title="Know More" class="modalbuttonsmall"/></td>
+            <td>
+              <Modal title="Know More" class="modalbuttonsmall" />
+            </td>
           </tr>
           <tr>
             <td>3 BHK Premium</td>
             <td>2027 sq.ft</td>
-            <td><Modal title="Know More" class="modalbuttonsmall"/></td>
+            <td>
+              <Modal title="Know More" class="modalbuttonsmall" />
+            </td>
           </tr>
           <tr>
             <td>4 BHk</td>
             <td>2525 sq.ft</td>
-            <td><Modal title="Know More" class="modalbuttonsmall"/></td>
+            <td>
+              <Modal title="Know More" class="modalbuttonsmall" />
+            </td>
           </tr>
         </tbody>
       </table>

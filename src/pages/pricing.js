@@ -4,6 +4,7 @@ import SEO from "../components/seo"
 import { useStaticQuery, graphql } from "gatsby"
 import TitleComponant from "../components/titlecomponent"
 import Img from "gatsby-image/withIEPolyfill"
+import PricingComponent from '../components/pricing'
 
 
 const Overview = () => {
@@ -24,10 +25,7 @@ const Overview = () => {
       <div style={{ paddingTop: "13vh", textAlign: "center" }}>
         <TitleComponant title="Waterford Pricing"/>
         <br/>
-        <Img
-          fluid={data.placeholderImage.childImageSharp.fluid}
-          alt="Waterford Image"
-        />
+         <PricingComponent/>
         <hr />
       </div>
     </Layout>
