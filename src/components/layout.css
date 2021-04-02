@@ -1099,3 +1099,7 @@ a.button:hover {
 .react-responsive-modal-modal {
   padding: 0px  !important;
 }
+
+.jss9{
+  position: inherit !important;
+}
