@@ -23,7 +23,7 @@ const Overview = () => {
     <Layout>
       <SEO title="Prestige Waterford Masterplan" />
       <div style={{ paddingTop: "13vh", textAlign: "center" }}>
-      <TitleComponant title="Waterford Gallery" />
+      <TitleComponant title="Waterford MasterPlan" />
       <br />
       <Img
         fluid={data.placeholderImage.childImageSharp.fluid}
