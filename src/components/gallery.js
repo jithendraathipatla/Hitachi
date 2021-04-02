@@ -3,14 +3,14 @@ import TitleComponent from "./titlecomponent"
 import "./layout.css"
 import TabContainer from "./tabs"
 import LightHouseabc from "./lightbox"
-import ExteriorFirst from "../Images/banner1.webp"
-import ExteriorSecond from "../Images/banner2.webp"
-import ExteriorThird from "../Images/banner3.webp"
+import ExteriorFirst from "../images/banner1.webp"
+import ExteriorSecond from "../images/banner2.webp"
+import ExteriorThird from "../images/banner3.webp"
 
-import InteriorOne from "../Images/g1.jpg"
-import InteriorTwo from "../Images/g2.jpg"
-import InteriorThree from "../Images/g3.jpg"
-import InteriorFour from "../Images/g4.jpg"
+import InteriorOne from "../images/g1.jpg"
+import InteriorTwo from "../images/g2.jpg"
+import InteriorThree from "../images/g3.jpg"
+import InteriorFour from "../images/g4.jpg"
 
 const Gallery = () => {
   const interior = [
