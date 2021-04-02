@@ -517,20 +517,20 @@ a.button:hover {
   }
 }
 
-.images-in-grid-div{
-  padding-bottom:8px;
-  background:#eee;
-  box-shadow:0px 1px 3px 1px rgb(0 0 0 / 40%);
+.images-in-grid-div {
+  padding-bottom: 8px;
+  background: #eee;
+  box-shadow: 0px 1px 3px 1px rgb(0 0 0 / 40%);
 }
 
-.images-in-nogrid-div{
-  background:#eee;
+.images-in-nogrid-div {
+  background: #eee;
   width: fit-content;
-  box-shadow:0px 1px 3px 1px rgb(0 0 0 / 40%);
+  box-shadow: 0px 1px 3px 1px rgb(0 0 0 / 40%);
   display: -webkit-inline-box;
 }
 
-.images-in-nogrid-div :hover{
+.images-in-nogrid-div :hover {
   cursor: pointer;
   transform: translateY(-1px);
 }
@@ -542,11 +542,11 @@ a.button:hover {
   color: #000000;
 }
 
-.images-in-nogrid{
-  padding:40px;
+.images-in-nogrid {
+  padding: 40px;
 }
 
-.images-in-nogrid img{
+.images-in-nogrid img {
   height: 250px;
   width: 400px;
   object-fit: cover;
@@ -565,7 +565,7 @@ a.button:hover {
 
 .galleryImages {
   display: block;
-  padding:0px 60px;
+  padding: 0px 60px;
 }
 
 .description_main {
@@ -639,11 +639,11 @@ a.button:hover {
 
 .finaltouch a:hover {
   color: #fff !important;
+  cursor: pointer;
 }
 
 .modalImageLogo {
   height: 78px;
-  margin-top: -6px;
 }
 
 .table.is-narrow td {
@@ -972,11 +972,11 @@ a.button:hover {
   }
 
   .carousel-captiona h2 {
-    font-size: 0.91rem;;
+    font-size: 0.91rem;
   }
 
   .carousel-captiona h4 {
-    font-size:0.91rem;;
+    font-size: 0.91rem;
   }
 
   .carousel-captiona h6 {
@@ -1080,19 +1080,21 @@ a.button:hover {
   margin-top: 12px;
 }
 
-
-@media all and (max-width: 600px){
-  .gatsby-image-wrapper{
-   
+@media all and (max-width: 600px) {
+  .gatsby-image-wrapper {
     height: 410px !important;
   }
 }
 
-
-.effetGradient, .effetGradient:hover{
+.effetGradient,
+.effetGradient:hover {
   text-shadow: 0 3px 6px #b4922f;
-  background-color: #B4922F;
+  background-color: #b4922f;
   background-size: 400% 400%;
-  border: none  !important;
+  border: none !important;
   width: 100% !important;
+}
+
+.react-responsive-modal-modal {
+  padding: 0px  !important;
 }

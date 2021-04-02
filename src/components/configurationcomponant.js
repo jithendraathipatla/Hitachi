@@ -1,7 +1,7 @@
 import React from "react"
 import TitleComponent from "./titlecomponent"
 import { css } from "@emotion/core"
-import { Link } from "gatsby"
+import Modal from './Modal'
 
 const Tabel = () => {
   return (
@@ -33,29 +33,17 @@ const Tabel = () => {
           <tr>
             <td>3 BHK </td>
             <td>1775 sq.ft</td>
-            <td>
-              <Link to="/contact">
-                <a class="modalbuttonsmall"> Know More </a>
-              </Link>
-            </td>
+            <td><Modal title="Know More" class="modalbuttonsmall"/></td>
           </tr>
           <tr>
             <td>3 BHK Premium</td>
             <td>2027 sq.ft</td>
-            <td>
-              <Link to="/contact">
-                <a class="modalbuttonsmall"> Know More </a>
-              </Link>
-            </td>
+            <td><Modal title="Know More" class="modalbuttonsmall"/></td>
           </tr>
           <tr>
             <td>4 BHk</td>
             <td>2525 sq.ft</td>
-            <td>
-              <Link to="/contact">
-                <a class="modalbuttonsmall"> Know More </a>
-              </Link>
-            </td>
+            <td><Modal title="Know More" class="modalbuttonsmall"/></td>
           </tr>
         </tbody>
       </table>
