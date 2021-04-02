@@ -1,7 +1,7 @@
 import React from "react"
 import TitleComponent from "./titlecomponent"
 import { css } from "@emotion/core"
-import Modal from './Modal'
+import Modal from './modal'
 
 const Tabel = () => {
   return (
