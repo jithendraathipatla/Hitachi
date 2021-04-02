@@ -97,8 +97,9 @@ const one = css`
   width: 100%;
   padding: 0 0.1rem;
   z-index: 100;
-  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.09);
+  box-shadow: 0 1px 4px 1px rgb(0 0 0 / 23%);
   background: #fff;
+  height:60px;
 `
 const imgone = css`
   display: none;

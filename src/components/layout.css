@@ -517,16 +517,45 @@ a.button:hover {
   }
 }
 
+.images-in-grid-div{
+  padding-bottom:8px;
+  background:#eee;
+  box-shadow:0px 1px 3px 1px rgb(0 0 0 / 40%);
+}
+
+.images-in-nogrid-div{
+  background:#eee;
+  width: fit-content;
+  box-shadow:0px 1px 3px 1px rgb(0 0 0 / 40%);
+  display: -webkit-inline-box;
+}
+
+.images-in-nogrid-div :hover{
+  cursor: pointer;
+  transform: translateY(-1px);
+}
+
 .images-in-grid {
   display: grid;
-  grid-template-columns: 6fr 6fr;
-  grid-gap: 20px;
+  grid-template-columns: 4fr 4fr 4fr 4fr;
+  grid-gap: 40px;
   color: #000000;
 }
 
+.images-in-nogrid{
+  padding:40px;
+}
+
+.images-in-nogrid img{
+  height: 250px;
+  width: 400px;
+  object-fit: cover;
+}
 .images-in-grid img {
-  height: 200px;
+  height: 270px;
+  width: 315px;
   border: 1px solid #eee;
+  object-fit: cover;
 }
 
 .images-in-grid img:hover {
@@ -535,9 +564,8 @@ a.button:hover {
 }
 
 .galleryImages {
-  display: grid;
-  grid-template-columns: 6fr 6fr;
-  grid-gap: 40px;
+  display: block;
+  padding:0px 60px;
 }
 
 .description_main {
@@ -1060,3 +1088,11 @@ a.button:hover {
   }
 }
 
+
+.effetGradient, .effetGradient:hover{
+  text-shadow: 0 3px 6px #b4922f;
+  background-color: #B4922F;
+  background-size: 400% 400%;
+  border: none  !important;
+  width: 100% !important;
+}

@@ -12,7 +12,9 @@ import Img from "gatsby-image/withIEPolyfill"
 import OverviewComponent from "../components/overviewcomponant"
 import Configirationcomponant from "../components/configurationcomponant"
 import AmenititesComponant from "../components/amenitiescomponant"
-
+import SliderComponant from "../components/slider"
+import GalleryComponent from "../components/gallery"
+import SiteAndFloorPlanComponent from "../components/siteandfloor"
 
 const IndexPage = () => {
   const [isShown, setIsShown] = useState(false)
@@ -55,7 +57,7 @@ const IndexPage = () => {
         css={one}
         style={{ maxWidth: `100%`, marginBottom: `1.45rem`, marginTop: `50px` }}
       >
-        <Image />
+        <SliderComponant />
       </div>
       <div css={two}>
         <div css={twoone}>
@@ -65,7 +67,7 @@ const IndexPage = () => {
           <Secondcomponant />
         </div>
       </div>
-      <div  style={{ marginTop: "-20px" }}>
+      <div style={{ marginTop: "-20px" }}>
         <div style={{ textAlign: "center" }}>
           <Titlecomponent title="About Preigewaterford" />
         </div>
@@ -97,14 +99,13 @@ const IndexPage = () => {
               brand 2015 award at Hotel Leela, ii)Mumbai by IBC Info Media Corp,
               USA, in association with the International brand council. And many
               more Awards.
-              <br/>
-              <br/>
-              It is construction by
-              Prestige Group which is one of the top real-estate firms of the
-              country with projects spread across the cities of India.It Also
-              includes a clubhouse, fully equipped gymnasium, swimming pool,
-              multi-purpose hall, 24/7 Security and much more.
-
+              <br />
+              <br />
+              It is construction by Prestige Group which is one of the top
+              real-estate firms of the country with projects spread across the
+              cities of India.It Also includes a clubhouse, fully equipped
+              gymnasium, swimming pool, multi-purpose hall, 24/7 Security and
+              much more.
             </span>
           </div>
         </div>
@@ -120,40 +121,17 @@ const IndexPage = () => {
       </div>
       <hr />
       <div style={{ textAlign: "center" }}>
-        <div style={{ textAlign: "center" }}>
-          <Titlecomponent title="Waterford Masterplan" />
-        </div>
-        <Img
-          fluid={data.masterPlan.childImageSharp.fluid}
-          alt="Waterford Image"
-        />
+        <SiteAndFloorPlanComponent />
       </div>
       <hr />
-      <div>
+      <div style={{ textAlign: "center" }}>
         <div style={{ textAlign: "center" }}>
-          <Titlecomponent title="Floor Plans" />
+          <Titlecomponent title="Waterford Gallery" />
         </div>
-        <div
-          css={isShown === true ? floorplansa : floorplans}
-          onMouseEnter={() => setIsShown(true)}
-          onMouseLeave={() => setIsShown(false)}
-        >
-          <Img
-            fluid={data.floorplanThree.childImageSharp.fluid}
-            alt="Waterford Image"
-            onMouseEnter={() => setIsShown(true)}
-            onMouseLeave={() => setIsShown(false)}
-          />
-          {isShown === true ? (
-            <Link to="/contact" css={knowmore}>
-              <button title="Know More" class="prestigecopyabcd">
-                Know More
-              </button>
-            </Link>
-          ) : null}
-        </div>
+        <GalleryComponent />
       </div>
       <hr />
+
       <div>
         <AmenititesComponant />
       </div>
@@ -163,8 +141,6 @@ const IndexPage = () => {
 }
 
 export default IndexPage
-
-
 
 const floorplans = css`
   display: block;
@@ -192,7 +168,7 @@ const knowmore = css`
   left: 50%;
   margin-top: -27%;
   position: absolute;
-  @media(max-width:600px){
+  @media (max-width: 600px) {
     left: 36%;
     margin-top: -34%;
     position: absolute;
@@ -211,7 +187,7 @@ const overview = css`
   @media (max-width: 600px) {
     display: block;
     padding: 0px 10px;
-}
+  }
 `
 
 const twoone = css`
@@ -220,13 +196,12 @@ const twoone = css`
   padding: 10px 10px 47px;
   border-radius: 5px;
   text-align: justify;
-  margin-left: 25px;
+  margin-left: 40px;
   height: 415px;
-  @media(max-width:600px){
+  @media (max-width: 600px) {
     height: 295px;
     width: 310px;
     margin-top: -30px;
-
   }
 `
 
@@ -248,19 +223,20 @@ const one = css`
 const two = css`
   position: absolute;
   top: 110px;
+  z-index: 40;
   display: flex;
   width: 100%;
   justify-content: space-between;
-  @media(max-width:600px){
-    min-height:400px;
-    img{
-      height:400px;
+  @media (max-width: 600px) {
+    min-height: 400px;
+    img {
+      height: 400px;
     }
   }
 `
 
 const gimage = css`
-@media(max-width:600px){
-  display:none;
-}
+  @media (max-width: 600px) {
+    display: none;
+  }
 `

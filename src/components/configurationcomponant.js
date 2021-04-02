@@ -32,11 +32,7 @@ const Tabel = () => {
           </tr>
           <tr>
             <td>3 BHK </td>
-            <td>
-              <Link to="/contact">
-                <a class="modalbuttonsmall"> 1775 sq.ft </a>
-              </Link>
-            </td>
+            <td>1775 sq.ft</td>
             <td>
               <Link to="/contact">
                 <a class="modalbuttonsmall"> Know More </a>
@@ -45,11 +41,7 @@ const Tabel = () => {
           </tr>
           <tr>
             <td>3 BHK Premium</td>
-            <td>
-              <Link to="/contact">
-                <a class="modalbuttonsmall"> 2027 sq.ft </a>
-              </Link>
-            </td>
+            <td>2027 sq.ft</td>
             <td>
               <Link to="/contact">
                 <a class="modalbuttonsmall"> Know More </a>
@@ -58,11 +50,7 @@ const Tabel = () => {
           </tr>
           <tr>
             <td>4 BHk</td>
-            <td>
-              <Link to="/contact">
-                <a class="modalbuttonsmall"> 2525 sq.ft </a>
-              </Link>
-            </td>
+            <td>2525 sq.ft</td>
             <td>
               <Link to="/contact">
                 <a class="modalbuttonsmall"> Know More </a>

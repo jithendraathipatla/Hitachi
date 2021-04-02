@@ -12,7 +12,7 @@ const HighlightFormTwo = () => {
         mozAnimation: "Gradient 3s ease infinite",
         animation: "Gradient 3s ease infinite", color:"#fff", padding: "2px", width:"23.1%", display: "block" ,margin: "5px 0", fontSize: "20px"}} className="prewidth"> 
             <span style={{display: "block", fontSize: "1.1rem"}}>
-            <span className="animated bounceIn infinite" style={{display: "block", animationDuration: "3s"}}>PRE-LAUNCH</span>
+            <span className="animated bounceIn infinite" style={{display: "block", animationDuration: "3s"}}>NEW-LAUNCH</span>
          </span></span>
           <h1>Prestige Waterford</h1>
             <h4>Whitefield, Bangalore</h4>

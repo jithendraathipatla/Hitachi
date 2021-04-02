@@ -1,15 +1,17 @@
 import React, {useState} from 'react';
 import Lightbox from 'react-image-lightbox';
+import "react-image-lightbox/style.css";
 
 
 const Lighthouse = (props) => {
+  console.log(props.css1)
   const images = props.images;
   const [state, setstate] = useState(props.state);
   const displayingGallery = () => {
     return state.map((item,i)=>{
       return(
-        <div key={i} style={{paddingBottom:"8px", backgroundColor:"#eee"}}>
-          <img src={item.image} alt={item.name} onClick={()=> setisOpen(true)} width="400px" />
+        <div key={i}  className={props.css1 == `nogrid` ? "images-in-nogrid-div" : "images-in-grid-div"} >
+          <img src={item.image} alt={item.name} onClick={()=> setisOpen(true)}  />
           {item.name}
         </div>
         
@@ -20,7 +22,7 @@ const Lighthouse = (props) => {
   const [isOpen, setisOpen] = useState(false);
   return (
     <div>
-      <div className="images-in-grid">
+      <div className={props.css1 == `nogrid` ? "images-in-nogrid" : "images-in-grid"}>
      {displayingGallery()}
      </div>
         {isOpen && (
