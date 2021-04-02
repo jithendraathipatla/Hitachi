@@ -3,8 +3,8 @@ import Modalabc from 'react-responsive-modal';
 import 'react-responsive-modal/styles.css';
 import Form from './Form';
 import './layout.css';
-import OfficialLogo from '../Images/logo.png';
-import Callusback from '../Images/svg/call-back.svg'
+import OfficialLogo from '../images/logo.png';
+import Callusback from '../images/svg/call-back.svg'
 
 const Modal = (props) => {
     const [isopen, setisopen] = useState(false);
