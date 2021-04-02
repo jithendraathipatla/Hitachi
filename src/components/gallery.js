@@ -78,9 +78,9 @@ const Gallery = () => {
               exterior={
                 <LightHouseabc
                   images={[
-                    InteriorOne,
-                    InteriorTwo,
-                    InteriorThree,
+                    ExteriorFirst,
+                    ExteriorSecond,
+                    ExteriorThird,
                   ]}
                   state={exterior}
                 />
