@@ -220,7 +220,7 @@ const twoone = css`
   @media (max-width: 600px) {
     height: 295px;
     width: 310px;
-    margin-top: -30px;
+    margin-top: -20px;
   }
 `
 

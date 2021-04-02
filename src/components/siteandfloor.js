@@ -29,11 +29,16 @@ const SiteAndFloor = () => {
     <div>
       <TitleComponent title="Waterford MasterPlan" />
       <div css={image}>
-        <LightBoxComponant
+        <div>
+
+        </div>
+        <div><LightBoxComponant
           images={[MasterPlanImage]}
           state={masterplan}
           css1={"nogrid"}
-        />
+        /></div>
+        
+        <div></div>
       </div>
 
       <TitleComponent title="Floor Plans" />
@@ -101,6 +106,10 @@ const floor = css`
   }
   img {
     opacity: 40%;
+  }
+  @media(max-width:600px){
+    display:block;
+   padding:20px;
   }
 `
 

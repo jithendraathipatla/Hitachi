@@ -15,12 +15,12 @@ const Pricing = () => {
       }
     return(
         <div css={maingrid}>
-           <div>
+           <div css={mobileimage}>
             <Configirationcomponant/>
            </div>
            <div onMouseEnter={() => setIsShown2(true)}
              onMouseLeave={() => setIsShown2(false)} css={one}>
-                 <div>
+                 <div >
                  <img src={CostDetails}/>
                  {isShown2 == false ? null : displayingImage()}
                  </div>
@@ -60,4 +60,16 @@ const maingrid = css`
  grid-template-columns: 10fr 2fr;
  padding:40px;
  grid-gap:30px;
+ @media(max-width:600px){
+   display:block;
+   padding: 15px;
+   img{
+    width: -webkit-fill-available;
+   }
+ }
+`
+const mobileimage = css`
+ @media(max-width:600px){
+   margin-bottom:30px;
+ }
 `
