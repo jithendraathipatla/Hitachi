@@ -6,7 +6,7 @@ import "./layout.css"
 import OfficialLogo from "../images/svg/logo.svg"
 import { FiPhoneCall } from "react-icons/fi"
 import { FaCar } from "react-icons/fa"
-import { RiHandCoinLine } from "react-icons/Ri"
+import { RiHandCoinLine } from "react-icons/ri"
 import Callusback from "../images/svg/call-back.svg"
 import {css} from '@emotion/core'
 import TitleComponent from './titlecomponent'
