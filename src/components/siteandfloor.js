@@ -112,8 +112,11 @@ const jaj = css`
   border: 1px solid #eeee;
   border-radius: 2px;
   box-shadow: 0px 0px 11px 1px rgb(0 0 0 / 25%);
+  img{
+    opacity:40%;
+  }
   :hover{
-    transform: translateY(-1px);
+    transform: translateY(-0.5px);
     cursor:pointer;
   }
 `
