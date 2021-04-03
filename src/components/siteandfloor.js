@@ -26,57 +26,53 @@ const SiteAndFloor = () => {
   ]
 
   return (
-    <div>
+    <div style={{position:"relative"}}>
       <TitleComponent title="Waterford MasterPlan" />
       <div css={image}>
-        <div>
-
-        </div>
-        <div><LightBoxComponant
+        <LightBoxComponant
           images={[MasterPlanImage]}
           state={masterplan}
           css1={"nogrid"}
-        /></div>
-        
-        <div></div>
+        />
       </div>
-
+      <br />
       <TitleComponent title="Floor Plans" />
 
       <div css={floor}>
         <div
+          css={jaj}
           onMouseEnter={() => setIsShown(true)}
           onMouseLeave={() => setIsShown(false)}
         >
           <img src={FloorplanImage} alt="floorPlan" />
           <div class="effetGradient">
             {" "}
-            <h5>3 BHK</h5>{" "}
+            <h5>3 BHK</h5> {isShown == false ? null : displayingImage()}
           </div>
-          {isShown == false ? null : displayingImage()}
         </div>
 
         <div
+          css={jaj}
           onMouseEnter={() => setIsShown1(true)}
           onMouseLeave={() => setIsShown1(false)}
         >
           <img src={FloorplanImage} alt="floorPlan" />
           <div class="effetGradient">
             {" "}
-            <h5>3 BHK Premium</h5> 
+            <h5>3 BHK Premium</h5>{" "}
+            {isShown1 == false ? null : displayingImage()}
           </div>
-          {isShown1 == false ? null : displayingImage()}
         </div>
         <div
+          css={jaj}
           onMouseEnter={() => setIsShown2(true)}
           onMouseLeave={() => setIsShown2(false)}
         >
           <img src={FloorplanImage} alt="floorPlan" />
           <div class="effetGradient">
             {" "}
-            <h5>4 BHK</h5>
+            <h5>4 BHK</h5> {isShown2 == false ? null : displayingImage()}
           </div>
-          {isShown2 == false ? null : displayingImage()}
         </div>
       </div>
     </div>
@@ -89,21 +85,15 @@ const image = css`
   text-align: center;
 `
 const floor = css`
-  display: grid;
-  grid-template-columns: 4fr 4fr 4fr;
-  grid-gap: 10px;
+  display: flex;
   padding: 40px 200px;
-  div {
-    border: 1px solid #dee2e6;
-    width: fit-content;
+  justify-content: space-between;
     h5 {
       padding: 15px 0px;
       color: white;
       font-size: 20px;
       font-weight: 500;
       line-height: 1.2;
-    }
-  }
   img {
     opacity: 40%;
   }
@@ -114,7 +104,16 @@ const floor = css`
 `
 
 const Two = css`
-  position: relative;
-  top: -58%;
-  left: 36%;
+  position: absolute;
+  top: -200%;
+  left: 35%;
+`
+const jaj = css`
+  border: 1px solid #eeee;
+  border-radius: 2px;
+  box-shadow: 0px 0px 11px 1px rgb(0 0 0 / 25%);
+  :hover{
+    transform: translateY(-1px);
+    cursor:pointer;
+  }
 `

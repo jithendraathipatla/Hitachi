@@ -229,7 +229,7 @@ const twotwo = css`
   background-color: rgba(0, 0, 0, 0.81);
   width: 300px;
   height: 330px;
-  margin-top: 35px;
+  margin-top: 1%;
   @media (max-width: 600px) {
     display: none;
   }

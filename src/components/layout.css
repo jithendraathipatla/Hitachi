@@ -264,7 +264,7 @@ hr {
 .popup {
   left: 0;
   position: fixed;
-  top: 20%;
+  top: 16.5%;
   transition: left 0.5s ease;
   z-index: 1000;
 }
@@ -684,7 +684,7 @@ a.button:hover {
   color: #fff;
   text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.45);
   font-size: 40px;
-  line-height: 2em;
+  line-height: 1.5em;
   letter-spacing: 0.03em;
 }
 .carousel-captiona h2 {
@@ -761,6 +761,45 @@ a.button:hover {
     background-position: 0 50%;
   }
 }
+@keyframes bounceIn {
+  20%,
+  40%,
+  60%,
+  80%,
+  0%,
+  100% {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  20% {
+    -webkit-transform: scale3d(1.1, 1.1, 1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+  40% {
+    -webkit-transform: scale3d(0.9, 0.9, 0.9);
+    transform: scale3d(0.9, 0.9, 0.9);
+  }
+  60% {
+    opacity: 1;
+    -webkit-transform: scale3d(1.03, 1.03, 1.03);
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+  80% {
+    -webkit-transform: scale3d(0.97, 0.97, 0.97);
+    transform: scale3d(0.97, 0.97, 0.97);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+  }
+}
+
 @keyframes rocking {
   0% {
     transform: rotate(0deg);
@@ -782,15 +821,17 @@ a.button:hover {
   color: #2424;
 }
 
-@keyframes bounceIn {
-  from,
-  20%,
-  40%,
-  60%,
-  80%,
-  to {
-    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
-    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+@media only screen and (min-width: 992px) {
+  ul.pro-spec {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0.6vw 0.8vw;
+    margin-top: 1vw;
+    margin-bottom: 0.5vw;
+    font-size: 1vw;
+    text-transform: capitalize;
+    text-shadow: 0 1px 2px #000;
+    list-style: none;
+    color: #eee;
   }
 }
 
@@ -1071,9 +1112,9 @@ a.button:hover {
     display: block;
   }
   .images-in-nogrid {
-    padding:30px;
+    padding: 30px;
   }
-  .images-in-nogrid img{
+  .images-in-nogrid img {
     width: 100%;
   }
   .images-in-grid-div {
@@ -1097,8 +1138,7 @@ a.button:hover {
   }
 }
 
-.effetGradient,
-.effetGradient:hover {
+.effetGradient {
   text-shadow: 0 3px 6px #b4922f;
   background-color: #b4922f;
   background-size: 400% 400%;
