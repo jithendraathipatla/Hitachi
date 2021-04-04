@@ -216,7 +216,7 @@ const twoone = css`
   border-radius: 5px;
   text-align: justify;
   margin-left: 40px;
-  height: 59vh;
+  height: 61vh;
   @media (max-width: 600px) {
     height: 295px;
     width: 310px;
@@ -241,7 +241,7 @@ const one = css`
 
 const two = css`
   position: absolute;
-  top: 16%;
+  top: 14%;
   z-index: 40;
   display: flex;
   width: 100%;
