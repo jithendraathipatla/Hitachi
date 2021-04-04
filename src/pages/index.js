@@ -218,7 +218,7 @@ const twoone = css`
   margin-left: 40px;
   height: 61vh;
   @media (max-width: 600px) {
-    height: 315px;
+    height: 280px;
     width: 310px;
     margin-top: -20px;
   }
