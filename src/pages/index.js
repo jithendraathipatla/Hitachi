@@ -216,7 +216,7 @@ const twoone = css`
   border-radius: 5px;
   text-align: justify;
   margin-left: 40px;
-  height: 420px;
+  height: 59vh;
   @media (max-width: 600px) {
     height: 295px;
     width: 310px;

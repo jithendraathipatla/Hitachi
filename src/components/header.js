@@ -156,7 +156,7 @@ const list = css`
       }
     }
     img {
-      padding-left: 25px;
+      padding-left: 15px;
       margin-top: 6px;
       height: 16px;
     }
@@ -165,7 +165,7 @@ const list = css`
       text-decoration: none;
       color: #000;
       text-align: center;
-      font-size: 1.3rem;
+      font-size: 1.25rem;
       font-weight: 490;
       letter-spacing: 0.025rem;
       padding-bottom:18px:

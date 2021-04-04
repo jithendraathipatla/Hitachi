@@ -683,7 +683,7 @@ a.button:hover {
   text-transform: uppercase;
   color: #fff;
   text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.45);
-  font-size: 40px;
+  font-size: 2em;
   line-height: 1.5em;
   letter-spacing: 0.03em;
 }
@@ -692,7 +692,7 @@ a.button:hover {
   text-transform: uppercase;
   color: #fff;
   text-shadow: 1px 3px 4px rgba(0, 0, 0, 0.45);
-  font-size: 35px;
+  font-size: 1.8em;
   line-height: 2em;
   letter-spacing: 0.03em;
 }

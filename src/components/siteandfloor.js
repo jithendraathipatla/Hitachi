@@ -86,7 +86,7 @@ const image = css`
 `
 const floor = css`
   display: flex;
-  padding: 40px 200px;
+  padding: 40px 5%;
   justify-content: space-between;
     h5 {
       padding: 15px 0px;
