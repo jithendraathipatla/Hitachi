@@ -19,7 +19,7 @@ const StatefulOverview = () => {
     },
     {
       main_title: "Total Land Area",
-      sub_heading: "22 Acer",
+      sub_heading: "16.6 Acer",
       image: TotalLandArea,
     },
     {
@@ -29,17 +29,17 @@ const StatefulOverview = () => {
     },
     {
       main_title: "Number Of Floors",
-      sub_heading: "G + 21/24",
+      sub_heading: "B + G + 23,24",
       image: NumberOfFloors,
     },
     {
       main_title: "Total Towers",
-      sub_heading: "7 Towers",
+      sub_heading: "5 Towers",
       image: TotalTowers,
     },
     {
       main_title: "Unit Varients",
-      sub_heading: "1,3 & 4 BHK",
+      sub_heading: "3 & 4 BHK",
       image: UnitVarients,
     },
     {
@@ -49,7 +49,7 @@ const StatefulOverview = () => {
     },
     {
       main_title: "Location",
-      sub_heading: "Whitefield, Bangalore",
+      sub_heading: "Whitefield ECC Road, Bangalore",
       image: Location,
     },
   ])

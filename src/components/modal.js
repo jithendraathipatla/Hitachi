@@ -47,9 +47,9 @@ const Modal = props => {
             padding: "10px 0px",
           }}
         >
-          <a href="tel:01234567890" style={{ textDecoration: "none"}}>
+          <a href="tel:7829333322" style={{ textDecoration: "none"}}>
             <img src={Callusback} style={{ maringLeft: "10px" }} />{" "}
-            <span style={{ color: "white" }}>9071354854</span>
+            <span style={{ color: "white" }}>7829333322</span>
           </a>
         </div>
       </Modalabc>
@@ -61,7 +61,6 @@ export default Modal
 
 const one = css`
 background: #eeee;
-padding:0px 30px;
 span{
   display: block;
   color: #977729;

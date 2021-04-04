@@ -82,7 +82,7 @@ const HighlightFormTwo = () => {
         </span>
       </span>
 
-      <h3>Luxury 1,3 &amp; 4 BHK Apartments</h3>
+      <h3>Luxury 3 &amp; 4 BHK Apartments</h3>
       <h2>₹ 1.32 Cr* Onwards </h2>
       
 

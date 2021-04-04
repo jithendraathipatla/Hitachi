@@ -81,12 +81,12 @@ const IndexPage = () => {
           </div>
           <div style={{ textAlign: "justify" }}>
             <span>
-              Prestige Group presents Prestige Waterford at Whitefield,a
+              Prestige Group presents Prestige Waterford at Whitefield ECC Road,a
               flourishing suburb of Bangalore. Made by the best of
               extravagances, this milestone will presently wake up at the
-              Whitefield.It is an upcoming new residential project located in
-              Whitefield Bangalore. And Locations is Pattandur Agrahara,
-              Whitefield, Bangalore, Karnataka 560066.It is construction by
+              Whitefield ECC Road.It is an upcoming new residential project located in
+              Whitefield ECC Road Bangalore. And Locations is Pattandur Agrahara,
+              Whitefield ECC Road, Bangalore, Karnataka 560066.It is construction by
               Prestige Group which is one of the top real-estate firms of the
               country with projects spread across the cities of India.It Also
               includes a clubhouse, fully equipped gymnasium, swimming pool,
@@ -112,15 +112,6 @@ const IndexPage = () => {
         </div>
       </div>
       <br />
-      <hr />
-      <div style={{textAlign:"center"}}>
-        <Titlecomponent title="Waterford Walkthrough" />
-        <iframe
-          width="69%"
-          height="345"
-          src="https://www.youtube.com/embed/H8ZuBxh0lNs?autoplay=1&mute=1"
-        ></iframe>
-      </div>
       <hr />
       <div>
         <OverviewComponent />
@@ -153,6 +144,15 @@ const IndexPage = () => {
       <hr/>
       <div>
         <AmenititesComponant />
+      </div>
+      <hr />
+      <div style={{textAlign:"center"}}>
+        <Titlecomponent title="Waterford Walkthrough" />
+        <iframe
+          width="69%"
+          height="345"
+          src="https://www.youtube.com/embed/H8ZuBxh0lNs?autoplay=1&mute=1"
+        ></iframe>
       </div>
       <hr />
     </Layout>
@@ -216,7 +216,7 @@ const twoone = css`
   border-radius: 5px;
   text-align: justify;
   margin-left: 40px;
-  height: 415px;
+  height: 420px;
   @media (max-width: 600px) {
     height: 295px;
     width: 310px;
@@ -241,7 +241,7 @@ const one = css`
 
 const two = css`
   position: absolute;
-  top: 110px;
+  top: 16%;
   z-index: 40;
   display: flex;
   width: 100%;
