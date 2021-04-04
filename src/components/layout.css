@@ -957,6 +957,11 @@ a.button:hover {
   .images-in-nogrid-div{
     margin: 0px;
   }
+  .youtube{
+    width: 82% !important;
+    height: 239px !important;
+    margin-top: 30px !important;
+  }
   .prestigecopy {
     padding: 5px 16px;
     width: 39vh;

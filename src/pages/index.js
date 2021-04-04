@@ -148,7 +148,7 @@ const IndexPage = () => {
       <hr />
       <div style={{textAlign:"center"}}>
         <Titlecomponent title="Waterford Walkthrough" />
-        <iframe
+        <iframe className="youtube"
           width="69%"
           height="345"
           src="https://www.youtube.com/embed/H8ZuBxh0lNs?autoplay=1&mute=1"
