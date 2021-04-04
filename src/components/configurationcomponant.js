@@ -16,7 +16,7 @@ const Tabel = () => {
             <th>Type</th>
             <th style={{ background: "black" }}>Area</th>
             <th>Starting At</th>
-            <th style={{ background: "black" }}>Complect Breakup</th>
+            <th style={{ background: "black" }}>Complete Breakup</th>
           </tr>
         </thead>
 

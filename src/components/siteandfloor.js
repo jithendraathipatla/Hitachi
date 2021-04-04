@@ -88,6 +88,9 @@ const floor = css`
   display: flex;
   padding: 40px 5%;
   justify-content: space-between;
+  @media(max-width:600px){
+    display:block;
+   }
     h5 {
       padding: 15px 0px;
       color: white;
@@ -97,10 +100,7 @@ const floor = css`
   img {
     opacity: 40%;
   }
-  @media(max-width:600px){
-    display:block;
-   padding:20px;
-  }
+
 `
 
 const Two = css`
@@ -119,4 +119,7 @@ const jaj = css`
     transform: translateY(-0.5px);
     cursor:pointer;
   }
+  @media(max-width:600px){
+    margin-bottom:20px;
+   }
 `

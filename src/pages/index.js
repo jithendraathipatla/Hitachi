@@ -68,7 +68,7 @@ const IndexPage = () => {
           <Secondcomponant />
         </div>
       </div>
-      <div style={{ marginTop: "-20px" }}>
+      <div css={about}>
         <div style={{ textAlign: "center" }}>
           <Titlecomponent title="About Preigewaterford" />
         </div>
@@ -218,7 +218,7 @@ const twoone = css`
   margin-left: 40px;
   height: 61vh;
   @media (max-width: 600px) {
-    height: 295px;
+    height: 315px;
     width: 310px;
     margin-top: -20px;
   }
@@ -258,4 +258,11 @@ const gimage = css`
   @media (max-width: 600px) {
     display: none;
   }
+`
+
+const about = css`
+ margin-top:-20px;
+ @media(max-width:600px){
+  margin-top: -150px;
+ }
 `

@@ -836,6 +836,22 @@ a.button:hover {
   }
 }
 
+@media only screen and (max-width: 600px) {
+  ul.pro-spec {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0.6vw 0.8vw;
+    margin-top: 1vw;
+    margin-bottom: 0.5vw;
+    font-size: 3vw;
+    text-transform: capitalize;
+    text-shadow: 0 1px 2px #000;
+    list-style: none;
+    color: #eee;
+  }
+}
+
+
+
 .animated.infinite {
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;

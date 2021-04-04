@@ -87,7 +87,7 @@ export default Header
 
 const main = css`
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 `
 
 const one = css`
