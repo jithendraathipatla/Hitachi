@@ -954,7 +954,9 @@ a.button:hover {
     display: flex;
     margin-left: 30%;
   }
-
+  .images-in-nogrid-div{
+    margin: 0px;
+  }
   .prestigecopy {
     padding: 5px 16px;
     width: 39vh;
