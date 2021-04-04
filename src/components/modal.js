@@ -61,6 +61,9 @@ export default Modal
 
 const one = css`
 background: #eeee;
+@media(max-width:600px){
+  display:none;
+}
 span{
   display: block;
   color: #977729;
