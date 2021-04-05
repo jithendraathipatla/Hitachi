@@ -19,19 +19,20 @@ const Form = () => {
       Client_phone_number: phonenumber,
       Project_Name: " Waterford",
     }
+    var data = {
+      service_id: "gmail",
+      template_id: "normal",
+      user_id: "user_s9VasukllOwTDnR8R0FWD",
+      template_params: finalData,
+    }
 
     axios
-      .post(
-        " https://wmy59z5nb1.execute-api.us-east-1.amazonaws.com/prod/send_email_to_livexcellence",
-        finalData
-      )
+      .post("https://api.emailjs.com/api/v1.0/email/send", data)
       .then(res => {
         console.log(res)
+        console.log(res.data)
         alert("You will now be redirected.")
         window.location = "/download/"
-      })
-      .catch(e => {
-        console.log(e)
       })
   }
   return (

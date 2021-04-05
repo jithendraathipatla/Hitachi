@@ -106,7 +106,7 @@ const imgone = css`
   @media (max-width: 600px) {
     display: block;
 
-    padding-top: 26px;
+    padding-top: 21px;
     margin-right: 23px;
     margin-left: -8px;
   }

@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import axios from "axios"
-import {FaArrowCircleRight} from 'react-icons/fa'
+import { FaArrowCircleRight } from "react-icons/fa"
 
 const Sidemenu = props => {
   const [state, setstate] = useState("popup closepopup")
@@ -74,9 +74,16 @@ const Sidemenu = props => {
       phonenumber: phoneone,
       PropertyName: "Prestige  Waterford",
     }
-   
+
+    var data = {
+      service_id: "gmail",
+      template_id: "normal",
+      user_id: "user_s9VasukllOwTDnR8R0FWD",
+      template_params: finalformdata,
+    }
+
     axios
-      .post("https://wmy59z5nb1.execute-api.us-east-1.amazonaws.com/prod/send_email_to_livexcellence", finalformdata)
+      .post("https://api.emailjs.com/api/v1.0/email/send", data)
       .then(res => {
         console.log(res)
         console.log(res.data)
@@ -96,10 +103,16 @@ const Sidemenu = props => {
       phonenumber: phonetwo,
       PropertyName: "Prestige  Waterford",
     }
-   
+
+    var data = {
+      service_id: "gmail",
+      template_id: "normal",
+      user_id: "user_s9VasukllOwTDnR8R0FWD",
+      template_params: finalformdata,
+    }
 
     axios
-      .post("https://wmy59z5nb1.execute-api.us-east-1.amazonaws.com/prod/send_email_to_livexcellence", finalformdata)
+      .post("https://api.emailjs.com/api/v1.0/email/send", data)
       .then(res => {
         console.log(res)
         console.log(res.data)
@@ -155,7 +168,7 @@ const Sidemenu = props => {
           </form>
         </div>
         <a className={nextstep} onClick={handelPopUp}>
-          Download Brouchure <FaArrowCircleRight/>
+          Download Brouchure <FaArrowCircleRight />
         </a>
       </div>
 
@@ -206,7 +219,7 @@ const Sidemenu = props => {
           </form>
         </div>
         <a className={costtwo} onClick={handelCostSheet}>
-          Download CostSheet <FaArrowCircleRight/>
+          Download CostSheet <FaArrowCircleRight />
         </a>
       </div>
     </div>

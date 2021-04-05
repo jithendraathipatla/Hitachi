@@ -1003,9 +1003,7 @@ a.button:hover {
     display: block;
   }
   .main_logo1 {
-    width: 65px;
-    padding-left: 13px;
-    height: 65px;
+    transform: translate(8%, -2px);
   }
 
   .nav-btn {

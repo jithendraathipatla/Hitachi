@@ -9,7 +9,7 @@ const Pricing = () => {
     const displayingImage = () => {
         return (
           <div css={Two}>
-            <Modal title="Know More" class="modalbuttonsmall" />
+            <Modal title="Complete BreakUp" class="modalbuttonsmall" />
           </div>
         )
       }
@@ -49,7 +49,7 @@ padding: 10px;
 const Two = css`
   position: absolute;
   top: 38%;
-  left: 36%;
+  left: 33%;
 `
 const one = css`
 position: relative;

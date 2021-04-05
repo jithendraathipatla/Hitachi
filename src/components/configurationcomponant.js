@@ -16,7 +16,7 @@ const Tabel = () => {
             <th>Type</th>
             <th style={{ background: "black" }}>Area</th>
             <th>Starting At</th>
-            <th style={{ background: "black" }}>Complete Breakup</th>
+            <th style={{ background: "black" }}>Price</th>
           </tr>
         </thead>
 
@@ -27,7 +27,7 @@ const Tabel = () => {
             <td>1775 sq.ft</td>
             <td><BiRupee/>1.32 Cr* Onwards</td>
             <td>
-              <Modal title="Know More" class="modalbuttonsmall" />
+              <Modal title="Complete BreakUp" class="modalbuttonsmall" />
             </td>
           </tr>
           <tr>
@@ -35,7 +35,7 @@ const Tabel = () => {
             <td>2027 sq.ft</td>
             <td><BiRupee/>1.57 Cr* Onwards</td>
             <td>
-              <Modal title="Know More" class="modalbuttonsmall" />
+              <Modal title="Complete BreakUp" class="modalbuttonsmall" />
             </td>
           </tr>
           <tr>
@@ -43,7 +43,7 @@ const Tabel = () => {
             <td>2525 sq.ft</td>
             <td><BiRupee/>1.96 Cr* Onwards</td>
             <td>
-              <Modal title="Know More" class="modalbuttonsmall" />
+              <Modal title="Complete BreakUp" class="modalbuttonsmall" />
             </td>
           </tr>
         </tbody>

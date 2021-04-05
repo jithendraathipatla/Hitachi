@@ -14,7 +14,7 @@ const SiteAndFloor = () => {
   const displayingImage = () => {
     return (
       <div css={Two}>
-        <Modal title="Know More" class="modalbuttonsmall" />
+        <Modal title="Complete BreakUp" class="modalbuttonsmall" />
       </div>
     )
   }
@@ -106,7 +106,7 @@ const floor = css`
 const Two = css`
   position: absolute;
   top: -200%;
-  left: 35%;
+  left: 30%;
 `
 const jaj = css`
   border: 1px solid #eeee;
