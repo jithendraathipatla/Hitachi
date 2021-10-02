@@ -4,9 +4,9 @@ body {
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .active {
-  color: #a88944 !important;
+  color: #4450a8db !important;
   padding-bottom: 15px;
-  border-bottom: 2px solid #a88944;
+  border-bottom: 2px solid #4450a8db;
 }
 
 .table-is-bordered {
@@ -186,7 +186,7 @@ hr {
   height: 42px;
   border-radius: 18%;
   box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.3);
-  background: linear-gradient(to bottom, #ff00000f, #ffff002e);
+  background: linear-gradient(to bottom, #00a1ff45, #9fb1e445);
 }
 
 .Amenities_main h1 {
@@ -197,7 +197,7 @@ hr {
 }
 
 .main_title {
-  color: #a88944;
+  color: #4450a8db;
   font-size: 24px;
   padding-top: 15px;
   padding-bottom: 20px;
@@ -236,7 +236,7 @@ hr {
   padding: 10px;
   border-radius: 18%;
   box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.3);
-  background: linear-gradient(to bottom, #ff00000f, #ffff002e);
+  background: linear-gradient(to bottom, #00a1ff45, #9fb1e445);
 }
 
 .Overview_main .properly {
@@ -299,7 +299,7 @@ hr {
 
 .form-heada h1 {
   font-size: 16px;
-  background-color: #d4af37;
+  background-color: #4450a8db;
   margin-bottom: 20px;
   font-weight: 500;
   padding: 10px 3px;
@@ -347,7 +347,7 @@ hr {
     background-color: #000;
   }
   to {
-    background-color: #d3b169;
+    background-color: #8869d3;
   }
   0%,
   100% {
@@ -460,7 +460,7 @@ a.button:hover {
 }
 
 .nav-links a:hover {
-  color: #d3b169;
+  color: #8869d3;
 }
 
 .show-nav {
@@ -582,7 +582,7 @@ a.button:hover {
   padding: 4px 10px;
   font-size: 0.8125rem;
   color: #fff;
-  background: #d4af37;
+  background: #4450a8db;
   background-size: 400% 400%;
   box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
     0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
@@ -725,7 +725,7 @@ a.button:hover {
   border-radius: 2px;
   border: 1px solid transparent;
   border-radius: 3px;
-  background: linear-gradient(-90deg, #d3b169, #000, #d3b169, #000);
+  background: linear-gradient(-90deg, #8869d3, #000, #8869d3, #000);
   background-size: 400% 400%;
   animation: Gradient 3s ease infinite;
 }
@@ -742,7 +742,7 @@ a.button:hover {
   left: 9vh;
   border: 1px solid transparent;
   border-radius: 3px;
-  background: linear-gradient(-90deg, #d3b169, #000, #d3b169, #000);
+  background: linear-gradient(-90deg, #8869d3, #000, #8869d3, #000);
   background-size: 400% 400%;
   animation: one 3s ease infinite;
 }
@@ -926,7 +926,7 @@ a.button:hover {
 }
 
 .form-head {
-  background-color: #d4af37;
+  background-color: #4450a8db;
   color: #fff;
   text-align: center;
   margin-bottom: 35px;
@@ -941,7 +941,7 @@ a.button:hover {
 .form-head h1 {
   font-size: 20px;
   text-align: center;
-  background-color: #d4af37;
+  background-color: #4450a8db;
   margin-bottom: 20px;
   padding: 8px 0px;
   color: #fff;
@@ -1161,8 +1161,8 @@ a.button:hover {
 }
 
 .effetGradient {
-  text-shadow: 0 3px 6px #b4922f;
-  background-color: #b4922f;
+  text-shadow: 0 3px 6px black;
+  background-color: black;
   background-size: 400% 400%;
   border: none !important;
   width: 100% !important;

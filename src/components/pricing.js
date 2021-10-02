@@ -40,7 +40,7 @@ export default Pricing;
 const last = css`
 font-size: 20px;
 color: white;
-background: rgb(168, 137, 68);
+background: rgb(68 80 168);
 text-align: center;
 margin-top: -6px;
 padding: 10px;

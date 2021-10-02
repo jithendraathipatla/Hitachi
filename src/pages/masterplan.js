@@ -21,13 +21,13 @@ const Overview = () => {
   `)
   return (
     <Layout>
-      <SEO title="Prestige Waterford Masterplan" />
+      <SEO title="Adarsh Sarvana Masterplan" />
       <div style={{ paddingTop: "13vh", textAlign: "center" }}>
-      <TitleComponant title="Waterford MasterPlan" />
+      <TitleComponant title="Sarvana MasterPlan" />
       <br />
       <Img
         fluid={data.placeholderImage.childImageSharp.fluid}
-        alt="Waterford masterplan"
+        alt="Sarvana masterplan"
       />
       </div>
       <hr />

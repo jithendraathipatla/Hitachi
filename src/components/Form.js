@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import axios from "axios"
+import emailjs from 'emailjs-com';
 
 const Form = () => {
   const [name, setname] = useState()
@@ -9,7 +9,7 @@ const Form = () => {
     e.preventDefault()
     let client_name = e.target.elements.name.value
     let client_email = e.target.elements.email.value
-    let phonenumber = e.target.elements.phone.value
+    let phonenumber = e.target.elements.clientPhone.value
     if (phonenumber.length > 10) {
       alert("Must enter a Valid Number")
     }
@@ -17,8 +17,9 @@ const Form = () => {
       Client_name: client_name,
       Client_email: client_email,
       Client_phone_number: phonenumber,
-      Project_Name: " Waterford",
+      Project_Name: "Adarsh Sarvana",
     }
+    console.log(finalData);
     var data = {
       service_id: "gmail",
       template_id: "normal",
@@ -26,14 +27,12 @@ const Form = () => {
       template_params: finalData,
     }
 
-    axios
-      .post("https://api.emailjs.com/api/v1.0/email/send", data)
-      .then(res => {
-        console.log(res)
-        console.log(res.data)
-        alert("You will now be redirected.")
-        window.location = "/download/"
-      })
+    emailjs.sendForm('gmail', 'normal', finalData, 'user_s9VasukllOwTDnR8R0FWD')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
   }
   return (
     <form
@@ -726,7 +725,7 @@ const Form = () => {
               <input
                 className="input"
                 type="number"
-                name="phone"
+                name="clientPhone"
                 required
                 minLength="10"
                 maxLength="20"

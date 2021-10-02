@@ -11,11 +11,11 @@ const Overview = () => {
   
   return (
     <Layout>
-      <SEO title="Prestige Waterford Gallery" />
+      <SEO title="Adarsh Sarvana Gallery" />
      
       <div style={{ paddingTop: "10vh", textAlign: "center" }}>
         <div style={{textAlign:"center"}}>
-        <TitleComponant title="Prestige Waterford Gallery"/>
+        <TitleComponant title="Adarsh Sarvana Gallery"/>
         </div>
         <GalleryComponent/>
         <hr/>

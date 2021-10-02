@@ -11,41 +11,39 @@ const Location = () => {
     e.preventDefault()
     let client_name = e.target.elements.name.value
     let client_email = e.target.elements.email.value
-    let phonenumber = e.target.elements.phone.value
+    let phonenumber = e.target.elements.phone_no.value
     if (phonenumber.length > 10) {
       alert("Must enter a Valid Number")
     }
-    const finalData = {
-      Client_name: client_name,
-      Client_email: client_email,
-      Client_phone_number: phonenumber,
-      Project_Name: " Waterford",
-    }
 
     var data = {
-      service_id: "gmail",
-      template_id: "normal",
-      user_id: "user_s9VasukllOwTDnR8R0FWD",
-      template_params: finalData,
+      "service_id": "gmail",
+      "template_id": "normal",
+      "user_id": "user_s9VasukllOwTDnR8R0FWD",
+      "template_params": {
+        "Client_name": client_name,
+        "Client_email": client_email,
+        "Client_phone_number": phonenumber,
+        "Project_Name": "Adarsh Sarvana",
+      }
     }
-
+    data = JSON.stringify(data);
     axios
-      .post("https://api.emailjs.com/api/v1.0/email/send", data)
-      .then(res => {
+      .post("https://api.emailjs.com/api/v1.0/email/send", data
+       ).then(res => {
         console.log(res)
         console.log(res.data)
-        alert("You will now be redirected.")
-        window.location = "/download/"
+       
       })
   }
   return (
     <div className="locationPart">
       <div>
         <div style={{ textAlign: "center" }}>
-          <Title title=" Waterford Location" />
+          <Title title="Sarvana Location" />
         </div>
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15551.365760983776!2d77.7421819!3d12.9819914!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc1e3bb2948afbff4!2sPrestige%20Waterford!5e0!3m2!1sen!2sin!4v1597550473653!5m2!1sen!2sin"
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d497189.2687962695!2d77.6028566!3d13.2070278!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1f2c963390d3%3A0x74e32bba6f5e7182!2sAdarsh%20Savana!5e0!3m2!1sen!2sin!4v1633162381498!5m2!1sen!2sin"
           width="100%"
           height="488"
           allowfullscreen=""
@@ -62,7 +60,7 @@ const Location = () => {
           <div style={{ textAlign: "center" }}>
             <img
               src={Logo}
-              alt=" Waterford"
+              alt="Adarsh Sarvava"
               width="26%"
               style={{ height: "90px", objectFit: "contain" }}
             />

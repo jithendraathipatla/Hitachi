@@ -5,9 +5,9 @@ const HighlightFormTwo = () => {
     <div className="carousel-captiona">
       <span
         style={{
-          backgroundColor: "#d4af37",
+          backgroundColor: "#4450a8db",
           background:
-            "linear-gradient(-45deg, #826424, #d4af37 ,#826424,#d4af37)",
+            "linear-gradient(-45deg, rgb(19 19 18), rgba(68, 80, 168, 0.86), rgb(37 36 130), rgba(68, 80, 168, 0.86)) 0% 0% / 400% 400%",
           backgroundSize: "400% 400%",
           webkitAnimation: "Gradient 3s ease infinite",
           mozAnimation: "Gradient 3s ease infinite",
@@ -30,7 +30,7 @@ const HighlightFormTwo = () => {
           </span>
         </span>
       </span>
-      <h1>Prestige Waterford</h1>
+      <h1>Adarsh Sarvana</h1>
       <h4>Whitefield, Bangalore</h4>
       <h4>Exclusive Homes In Whitefield, Bangalore</h4>
      
@@ -48,9 +48,9 @@ const HighlightFormTwo = () => {
 
       <span
         style={{
-          backgroundColor: "#d4af37",
+          backgroundColor: "#4450a8db",
           background:
-            "linear-gradient(-45deg, #826424, #d4af37 ,#826424,#d4af37)",
+          "linear-gradient(-45deg, rgb(19 19 18), rgba(68, 80, 168, 0.86), rgb(37 36 130), rgba(68, 80, 168, 0.86)) 0% 0% / 400% 400%",
           backgroundSize: "400% 400%",
           webkitAnimation: "Gradient 3s ease infinite",
           mozAnimation: "Gradient 3s ease infinite",

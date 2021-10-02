@@ -8,7 +8,7 @@ import Callusback from '../images/svg/call-back.svg'
 const Overview = () => {
   return (
     <Layout>
-      <SEO title="Prestige Waterford Contact" />
+      <SEO title="Adarsh Sarvana Contact" />
       <div style={{ paddingTop: "13vh", textAlign: "centr" }}>
         <div style={{ textAlign: "center" }}>
           <TitleComponant title="Contact" />
@@ -18,7 +18,7 @@ const Overview = () => {
             <div
               style={{
                 width: "100%",
-                background: "linear-gradient(101deg, #d4af37, #000)",
+                background: "linear-gradient(101deg, #4450a8db, #000)",
                 color: "white",
                 textAlign: "center",
                 padding: "10px 0px",

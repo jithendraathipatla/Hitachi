@@ -34,7 +34,7 @@ const Modal = props => {
           <div
             style={{
               width: "100%",
-              background: "linear-gradient(101deg, #d4af37, #000)",
+              background: "linear-gradient(101deg, #4450a8db, #000)",
               color: "white",
               textAlign: "center",
               padding: "10px 0px",

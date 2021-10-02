@@ -72,7 +72,7 @@ const Sidemenu = props => {
     let finalformdata = {
       name: vaueone,
       phonenumber: phoneone,
-      PropertyName: "Prestige  Waterford",
+      PropertyName: "Adarsh Sarvana",
     }
 
     var data = {
@@ -101,7 +101,7 @@ const Sidemenu = props => {
     let finalformdata = {
       name: vaueone,
       phonenumber: phonetwo,
-      PropertyName: "Prestige  Waterford",
+      PropertyName: "Adarsh Sarvana",
     }
 
     var data = {

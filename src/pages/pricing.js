@@ -21,9 +21,9 @@ const Overview = () => {
   `)
   return (
     <Layout>
-      <SEO title="Prestige Waterford Pricing" />
+      <SEO title="Adarsh Sarvana Pricing" />
       <div style={{ paddingTop: "13vh", textAlign: "center" }}>
-        <TitleComponant title="Waterford Pricing"/>
+        <TitleComponant title="Sarvana Pricing"/>
         <br/>
          <PricingComponent/>
         <hr />

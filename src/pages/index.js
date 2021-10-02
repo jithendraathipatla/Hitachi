@@ -22,28 +22,10 @@ const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(
-        relativePath: { eq: "prestige-waterford-banner.jpg" }
+        relativePath: { eq: "website-banner.jpg" }
       ) {
         childImageSharp {
           fluid(maxWidth: 300, maxHeight: 220) {
-            ...GatsbyImageSharpFluid_withWebp_tracedSVG
-          }
-        }
-      }
-
-      masterPlan: file(
-        relativePath: { eq: "prestige-waterford-masterplan.jpg" }
-      ) {
-        childImageSharp {
-          fluid(maxWidth: 900, maxHeight: 500) {
-            ...GatsbyImageSharpFluid_withWebp_tracedSVG
-          }
-        }
-      }
-
-      floorplanThree: file(relativePath: { eq: "floorplan3.jpeg" }) {
-        childImageSharp {
-          fluid(maxWidth: 1200, maxHeight: 600) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
           }
         }
@@ -53,7 +35,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Prestige Waterford | ITPL | Brochure" />
+      <SEO title="Adarsh Sarvana | ITPL | Brochure" />
       <div
         css={one}
         style={{ maxWidth: `100%`, marginBottom: `1.45rem`, marginTop: `50px` }}
@@ -70,18 +52,18 @@ const IndexPage = () => {
       </div>
       <div css={about}>
         <div style={{ textAlign: "center" }}>
-          <Titlecomponent title="About Preigewaterford" />
+          <Titlecomponent title="About Adarsh Sarvana" />
         </div>
         <div css={overview}>
           <div css={gimage}>
             <Img
               fluid={data.placeholderImage.childImageSharp.fluid}
-              alt="Waterford Image"
+              alt="Sarvana Image"
             />
           </div>
           <div style={{ textAlign: "justify" }}>
             <span>
-              Prestige Group presents Prestige Waterford at Whitefield ECC Road,a
+              Prestige Group presents Adarsh Sarvana at Whitefield ECC Road,a
               flourishing suburb of Bangalore. Made by the best of
               extravagances, this milestone will presently wake up at the
               Whitefield ECC Road.It is an upcoming new residential project located in
@@ -91,7 +73,7 @@ const IndexPage = () => {
               country with projects spread across the cities of India.It Also
               includes a clubhouse, fully equipped gymnasium, swimming pool,
               multi-purpose hall, 24/7 Security and much more. Prestige
-              Waterford comes with smartly designed homes and ample space that
+              Sarvana comes with smartly designed homes and ample space that
               is utilized to give you more in life. And there will be the best
               International Schools, work places, Quality Health Care
               Facilities, Shopping Malls, Hotels and Restaurants and much more.
@@ -119,7 +101,7 @@ const IndexPage = () => {
       <hr />
       <div>
       <div style={{ textAlign: "center" }}>
-        <Titlecomponent title="Waterford Configuration" />
+        <Titlecomponent title="Sarvana Configuration" />
       </div>
         <Configirationcomponant />
       </div>
@@ -130,14 +112,14 @@ const IndexPage = () => {
       <hr />
       <div style={{ textAlign: "center" }}>
         <div style={{ textAlign: "center" }}>
-          <Titlecomponent title="Waterford Gallery" />
+          <Titlecomponent title="Sarvana Gallery" />
         </div>
         <GalleryComponent />
       </div>
       <hr />
       <div>
       <div style={{ textAlign: "center" }}>
-          <Titlecomponent title="Waterford Pricing" />
+          <Titlecomponent title="Sarvana Pricing" />
         </div>
         <PricingComponent/>
       </div>
@@ -147,11 +129,11 @@ const IndexPage = () => {
       </div>
       <hr />
       <div style={{textAlign:"center"}}>
-        <Titlecomponent title="Waterford Walkthrough" />
+        <Titlecomponent title="Sarvarna Walkthrough" />
         <iframe className="youtube"
           width="69%"
           height="345"
-          src="https://www.youtube.com/embed/H8ZuBxh0lNs?autoplay=1&mute=1"
+          src="https://www.youtube.com/watch?v=LAJWnHUsiJE"
         ></iframe>
       </div>
       <hr />

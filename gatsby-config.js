@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Whitefield, Bangalore`,
-    description: `Prestige Waterford is an Upcoming project by Prestige Group at Bangalore. Get the updated Details of Prestige Waterford price, review, Location, and Contact Us Booking Assistance.`,
+    description: `Adarsh Sarvana is an Upcoming project by Prestige Group at Bangalore. Get the updated Details of Adarsh Sarvana price, review, Location, and Contact Us Booking Assistance.`,
     author: `@jithendraathipatla`,
   },
   plugins: [
@@ -28,10 +28,10 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#d4af37`,
-        theme_color: `#d4af37`,
+        background_color: `#4450a8db`,
+        theme_color: `#4450a8db`,
         display: `minimal-ui`,
-        icon: `src/images/favicon.ico`, // This path is relative to the root of the site.
+        icon: `src/images/favicon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

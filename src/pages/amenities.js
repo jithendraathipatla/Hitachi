@@ -9,7 +9,7 @@ const Overview = () => {
   return (
     <Layout>
       <SEO title="Prestige Amenities | Facilities" />
-      <SEO title="Prestige Waterford Gallery" />
+      <SEO title="Adarsh Sarvana Gallery" />
       <div style={{ paddingTop: "13vh", textAlign: "center" }}>
         <AmenitiesComponent/>
         <hr />

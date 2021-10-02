@@ -1,6 +1,6 @@
 import { Link } from "gatsby"
 import React from "react"
-import Logo from "../images/svg/logo.svg"
+import Logo from "../images/logo.png"
 import HomeSVG from "../images/svg/home.svg"
 import LoaderSVG from "../images/svg/loader.svg"
 import ReadingSVG from "../images/svg/reading-library-2.svg"
@@ -149,9 +149,9 @@ const list = css`
       padding-right: 0.5rem;
       a{
         :hover{
-          color: #a88944 !important;
+          color: #4450a8db !important;
           padding-bottom: 15px !important;
-          border-bottom: 2px solid #a88944 !important;
+          border-bottom: 2px solid #4450a8db !important;
         }
       }
     }

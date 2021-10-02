@@ -11,7 +11,7 @@ const Tabel = () => {
         <thead>
           <tr
             className="is-selected"
-            style={{ backgroundColor: "#a88944", border: "3px solid #eee" }}
+            style={{ backgroundColor: "#4450a8db", border: "3px solid #eee" }}
           >
             <th>Type</th>
             <th style={{ background: "black" }}>Area</th>

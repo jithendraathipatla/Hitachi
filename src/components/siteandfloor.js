@@ -27,7 +27,7 @@ const SiteAndFloor = () => {
 
   return (
     <div style={{position:"relative"}}>
-      <TitleComponent title="Waterford MasterPlan" />
+      <TitleComponent title="Sarvana MasterPlan" />
       <div css={image}>
         <LightBoxComponant
           images={[MasterPlanImage]}
