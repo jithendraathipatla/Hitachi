@@ -3,7 +3,7 @@ import Modalabc from "react-responsive-modal"
 import "react-responsive-modal/styles.css"
 import Form from "./Form"
 import "./layout.css"
-import OfficialLogo from "../images/svg/logo.svg"
+import OfficialLogo from "../images/logo.png"
 import { FiPhoneCall } from "react-icons/fi"
 import { FaCar } from "react-icons/fa"
 import { RiHandCoinLine } from "react-icons/ri"
@@ -66,7 +66,7 @@ background: #eeee;
 }
 span{
   display: block;
-  color: #977729;
+  color: #29419;
   font-size: 1.2vw;
   text-align: center;
   padding-bottom: 25px;
@@ -74,7 +74,7 @@ span{
   background: #eeee;
   padding: 14px;
   svg{
-    color:#977729;
+    color:#29419;
     display: inline-block;
     font-size: 3vw;
   }

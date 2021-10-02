@@ -31,18 +31,18 @@ const HighlightFormTwo = () => {
         </span>
       </span>
       <h1>Adarsh Savana</h1>
-      <h4>Whitefield, Bangalore</h4>
-      <h4>Exclusive Homes In Whitefield, Bangalore</h4>
+      <h4>Yelahanka Extension, Bangalore</h4>
+      <h4>100 Acres of Exclusive Gated Community</h4>
      
       <ul className="pro-spec">
         {" "}
         <li>
           <span className="list-icon">▸</span> <span className="heading">Acres</span> :
-          16.6 Acres
+          100 Acres
         </li>{" "}
         <li>
           <span className="list-icon">▸</span>{" "}
-          <span className="heading">Possession</span> : Dec 2023*
+          <span className="heading">Possession</span> : Dec 2021*
         </li>{" "}
       </ul>
 
@@ -82,10 +82,9 @@ const HighlightFormTwo = () => {
         </span>
       </span>
 
-      <h3>Luxury 3 &amp; 4 BHK Apartments</h3>
+      <h3>Luxury Plots</h3>
       <h2>₹ 1.32 Cr* Onwards </h2>
-      
-
+    
       <div
         style={{ border: "1px solid white", textAlign: "center" }}
         className="rera"

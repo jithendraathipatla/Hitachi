@@ -14,12 +14,12 @@ const StatefulOverview = () => {
   const [state, setstate] = useState([
     {
       main_title: "Project Type",
-      sub_heading: "Residential Apartment",
+      sub_heading: "Residential Plots",
       image: ProjectType,
     },
     {
       main_title: "Total Land Area",
-      sub_heading: "16.6 Acer",
+      sub_heading: "100 Acer",
       image: TotalLandArea,
     },
     {
@@ -29,22 +29,22 @@ const StatefulOverview = () => {
     },
     {
       main_title: "Number Of Floors",
-      sub_heading: "B + G + 23,24",
+      sub_heading: "N.A",
       image: NumberOfFloors,
     },
     {
       main_title: "Total Towers",
-      sub_heading: "5 Towers",
+      sub_heading: "N.A",
       image: TotalTowers,
     },
     {
       main_title: "Unit Varients",
-      sub_heading: "3 & 4 BHK",
+      sub_heading: "Plots",
       image: UnitVarients,
     },
     {
       main_title: "Possession Date",
-      sub_heading: "Dec 2023",
+      sub_heading: "Dec 2021",
       image: PossessionDate,
     },
     {
