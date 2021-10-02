@@ -33,7 +33,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <FooterComponent/>
         <div style={{boxShadow:"0px 0px 1px 1px rgba(0,0,0,0.01)", padding:"10px", textAlign:"center", marginTop:"0px", background:"black", color:"#fff"}}>
-            Disclaimer: This site is all about the information on the Adarsh Sarvana. Also Do not consider this as an official site. Information in this site might change witout your Prior notice.
+            Disclaimer: This site is all about the information on the Adarsh Savana. Also Do not consider this as an official site. Information in this site might change witout your Prior notice.
         </div>
       </div>
     </>

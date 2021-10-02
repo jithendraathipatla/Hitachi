@@ -3,31 +3,32 @@ import TitleComponent from "./titlecomponent"
 import "./layout.css"
 import TabContainer from "./tabs"
 import LightHouseabc from "./lightbox"
-import ExteriorFirst from "../images/banner1.webp"
-import ExteriorSecond from "../images/banner2.webp"
-import ExteriorThird from "../images/banner3.webp"
 
-import InteriorOne from "../images/g1.jpg"
-import InteriorTwo from "../images/g2.jpg"
-import InteriorThree from "../images/g3.jpg"
-import InteriorFour from "../images/g4.jpg"
+import NightFirst from "../images/outdoor1.jpg"
+import NightSecond from "../images/outdoor2.jpg"
+
+
+import InteriorOne from "../images/outdoor3.jpg"
+import InteriorTwo from "../images/outdoor4.jpg"
+import InteriorThree from "../images/outdoor5.jpg"
+import InteriorFour from "../images/outdoor6.jpg"
 
 const Gallery = () => {
   const interior = [
     {
-      name: "Balcony View",
+      name: "View One",
       image: InteriorOne,
     },
     {
-      name: "Dining Hall",
+      name: "View Two",
       image: InteriorTwo,
     },
     {
-      name: "Hall",
+      name: "View Three",
       image: InteriorThree,
     },
     {
-      name: "Bed Room",
+      name: "View Four",
       image: InteriorFour,
     },
   ]
@@ -35,15 +36,11 @@ const Gallery = () => {
   const exterior = [
     {
       name: "Exterior View",
-      image: ExteriorFirst,
+      image: NightFirst,
     },
     {
       name: "Exterior View",
-      image: ExteriorSecond,
-    },
-    {
-      name: "Exterior View",
-      image: ExteriorThird,
+      image: NightSecond,
     },
   ]
 
@@ -62,8 +59,8 @@ const Gallery = () => {
         <div className="galleryImages">
           <div>
             <TabContainer
-              title1="Interior"
-              title2="Exterior"
+              title1="Day View"
+              title2="Night View"
               interior={
                 <LightHouseabc
                   images={[
@@ -78,9 +75,8 @@ const Gallery = () => {
               exterior={
                 <LightHouseabc
                   images={[
-                    ExteriorFirst,
-                    ExteriorSecond,
-                    ExteriorThird,
+                    NightFirst,
+                    NightSecond,
                   ]}
                   state={exterior}
                 />

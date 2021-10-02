@@ -35,7 +35,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Adarsh Sarvana | ITPL | Brochure" />
+      <SEO title="Adarsh Savana | ITPL | Brochure" />
       <div
         css={one}
         style={{ maxWidth: `100%`, marginBottom: `1.45rem`, marginTop: `50px` }}
@@ -52,18 +52,18 @@ const IndexPage = () => {
       </div>
       <div css={about}>
         <div style={{ textAlign: "center" }}>
-          <Titlecomponent title="About Adarsh Sarvana" />
+          <Titlecomponent title="About Adarsh Savana" />
         </div>
         <div css={overview}>
           <div css={gimage}>
             <Img
               fluid={data.placeholderImage.childImageSharp.fluid}
-              alt="Sarvana Image"
+              alt="Savana Image"
             />
           </div>
           <div style={{ textAlign: "justify" }}>
             <span>
-              Prestige Group presents Adarsh Sarvana at Whitefield ECC Road,a
+              Prestige Group presents Adarsh Savana at Whitefield ECC Road,a
               flourishing suburb of Bangalore. Made by the best of
               extravagances, this milestone will presently wake up at the
               Whitefield ECC Road.It is an upcoming new residential project located in
@@ -73,7 +73,7 @@ const IndexPage = () => {
               country with projects spread across the cities of India.It Also
               includes a clubhouse, fully equipped gymnasium, swimming pool,
               multi-purpose hall, 24/7 Security and much more. Prestige
-              Sarvana comes with smartly designed homes and ample space that
+              Savana comes with smartly designed homes and ample space that
               is utilized to give you more in life. And there will be the best
               International Schools, work places, Quality Health Care
               Facilities, Shopping Malls, Hotels and Restaurants and much more.
@@ -101,7 +101,7 @@ const IndexPage = () => {
       <hr />
       <div>
       <div style={{ textAlign: "center" }}>
-        <Titlecomponent title="Sarvana Configuration" />
+        <Titlecomponent title="Savana Configuration" />
       </div>
         <Configirationcomponant />
       </div>
@@ -112,14 +112,14 @@ const IndexPage = () => {
       <hr />
       <div style={{ textAlign: "center" }}>
         <div style={{ textAlign: "center" }}>
-          <Titlecomponent title="Sarvana Gallery" />
+          <Titlecomponent title="Savana Gallery" />
         </div>
         <GalleryComponent />
       </div>
       <hr />
       <div>
       <div style={{ textAlign: "center" }}>
-          <Titlecomponent title="Sarvana Pricing" />
+          <Titlecomponent title="Savana Pricing" />
         </div>
         <PricingComponent/>
       </div>
@@ -133,7 +133,7 @@ const IndexPage = () => {
         <iframe className="youtube"
           width="69%"
           height="345"
-          src="https://www.youtube.com/watch?v=LAJWnHUsiJE"
+          src="https://www.youtube.com/embed/uwhLwVvcYTU"
         ></iframe>
       </div>
       <hr />

@@ -30,7 +30,7 @@ const HighlightFormTwo = () => {
           </span>
         </span>
       </span>
-      <h1>Adarsh Sarvana</h1>
+      <h1>Adarsh Savana</h1>
       <h4>Whitefield, Bangalore</h4>
       <h4>Exclusive Homes In Whitefield, Bangalore</h4>
      

@@ -71,7 +71,7 @@ const StatefulOverview = () => {
   return (
     <div>
       <div style={{ textAlign: "center" }}>
-        <Title title="Sarvana Overview" />
+        <Title title="Savana Overview" />
       </div>
 
       <div className="Overview_main">{displayingOverview()}</div>

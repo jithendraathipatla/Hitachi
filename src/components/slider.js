@@ -11,7 +11,7 @@ const Slider = () => {
     return (
         <div style={{marginTop:"50px"}}>
            <AutoplaySlider play={true} cancelOnInteraction={false} interval={4000} style={{height:"80vh", width:"auto"}}>
-             <div data-src={firstSliderImage} alt="Adarsh Sarvana"/>
+             <div data-src={firstSliderImage} alt="Adarsh Savana"/>
             </AutoplaySlider> 
         </div>
     );

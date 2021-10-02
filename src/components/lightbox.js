@@ -2,7 +2,6 @@ import React, {useState} from 'react';
 import Lightbox from 'react-image-lightbox';
 import "react-image-lightbox/style.css";
 
-
 const Lighthouse = (props) => {
   console.log(props.css1)
   const images = props.images;

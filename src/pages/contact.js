@@ -8,7 +8,7 @@ import Callusback from '../images/svg/call-back.svg'
 const Overview = () => {
   return (
     <Layout>
-      <SEO title="Adarsh Sarvana Contact" />
+      <SEO title="Adarsh Savana Contact" />
       <div style={{ paddingTop: "13vh", textAlign: "centr" }}>
         <div style={{ textAlign: "center" }}>
           <TitleComponant title="Contact" />

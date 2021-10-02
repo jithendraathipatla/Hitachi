@@ -9,7 +9,7 @@ const Overview = () => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(
-        relativePath: { eq: "prestige-waterford-masterplan.jpg" }
+        relativePath: { eq: "adarsh-master-plan.jpg" }
       ) {
         childImageSharp {
           fluid(maxWidth: 1000, maxHeight: 500) {
@@ -21,13 +21,13 @@ const Overview = () => {
   `)
   return (
     <Layout>
-      <SEO title="Adarsh Sarvana Masterplan" />
+      <SEO title="Adarsh Savana Masterplan" />
       <div style={{ paddingTop: "13vh", textAlign: "center" }}>
-      <TitleComponant title="Sarvana MasterPlan" />
+      <TitleComponant title="Savana MasterPlan" />
       <br />
       <Img
         fluid={data.placeholderImage.childImageSharp.fluid}
-        alt="Sarvana masterplan"
+        alt="Savana masterplan"
       />
       </div>
       <hr />

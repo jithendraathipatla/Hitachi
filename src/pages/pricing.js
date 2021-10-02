@@ -21,9 +21,9 @@ const Overview = () => {
   `)
   return (
     <Layout>
-      <SEO title="Adarsh Sarvana Pricing" />
+      <SEO title="Adarsh Savana Pricing" />
       <div style={{ paddingTop: "13vh", textAlign: "center" }}>
-        <TitleComponant title="Sarvana Pricing"/>
+        <TitleComponant title="Savana Pricing"/>
         <br/>
          <PricingComponent/>
         <hr />

@@ -24,7 +24,7 @@ const Location = () => {
         "Client_name": client_name,
         "Client_email": client_email,
         "Client_phone_number": phonenumber,
-        "Project_Name": "Adarsh Sarvana",
+        "Project_Name": "Adarsh Savana",
       }
     }
     data = JSON.stringify(data);
@@ -40,7 +40,7 @@ const Location = () => {
     <div className="locationPart">
       <div>
         <div style={{ textAlign: "center" }}>
-          <Title title="Sarvana Location" />
+          <Title title="Savana Location" />
         </div>
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d497189.2687962695!2d77.6028566!3d13.2070278!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1f2c963390d3%3A0x74e32bba6f5e7182!2sAdarsh%20Savana!5e0!3m2!1sen!2sin!4v1633162381498!5m2!1sen!2sin"

@@ -1,5 +1,4 @@
 import React from "react"
-
 import { css } from "@emotion/core"
 import Modal from "./modal"
 import {BiRupee} from 'react-icons/bi'
@@ -23,25 +22,31 @@ const Tabel = () => {
         <tbody css={bod}>
          
           <tr>
-            <td>3 BHK </td>
-            <td>1775 sq.ft</td>
-            <td><BiRupee/>1.32 Cr* Onwards</td>
+            <td>Diamond </td>
+            <td>2400 sq.ft</td>
+            <td>
+              <Modal title="On Request" class="modalbuttonsmall" />
+            </td>
             <td>
               <Modal title="Complete BreakUp" class="modalbuttonsmall" />
             </td>
           </tr>
           <tr>
-            <td>3 BHK Premium</td>
-            <td>2027 sq.ft</td>
-            <td><BiRupee/>1.57 Cr* Onwards</td>
+            <td>Ruby</td>
+            <td>1500 sq.ft</td>
+            <td>
+              <Modal title="On Request" class="modalbuttonsmall" />
+            </td>
             <td>
               <Modal title="Complete BreakUp" class="modalbuttonsmall" />
             </td>
           </tr>
           <tr>
-            <td>4 BHk</td>
-            <td>2525 sq.ft</td>
-            <td><BiRupee/>1.96 Cr* Onwards</td>
+            <td>Sapphire</td>
+            <td>1200 sq.ft</td>
+            <td>
+              <Modal title="On Request" class="modalbuttonsmall" />
+            </td>
             <td>
               <Modal title="Complete BreakUp" class="modalbuttonsmall" />
             </td>

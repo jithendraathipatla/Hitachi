@@ -2,8 +2,11 @@ import React, { useState } from "react"
 import { css } from "@emotion/core"
 import TitleComponent from "./titlecomponent"
 import LightBoxComponant from "../components/lightbox"
-import MasterPlanImage from "../images/prestige-waterford-masterplan.jpg"
-import FloorplanImage from "../images/4bhk.webp"
+import MasterPlanImage from "../images/adarsh-master-plan.jpg"
+import FloorplanImage from "../images/diamond.jpeg"
+import FloorplanImage1 from "../images/ruby.jpeg"
+import FloorplanImage2 from "../images/sapphire.jpeg"
+
 import Modal from "./modal"
 
 const SiteAndFloor = () => {
@@ -27,7 +30,7 @@ const SiteAndFloor = () => {
 
   return (
     <div style={{position:"relative"}}>
-      <TitleComponent title="Sarvana MasterPlan" />
+      <TitleComponent title="Savana MasterPlan" />
       <div css={image}>
         <LightBoxComponant
           images={[MasterPlanImage]}
@@ -47,7 +50,7 @@ const SiteAndFloor = () => {
           <img src={FloorplanImage} alt="floorPlan" />
           <div class="effetGradient">
             {" "}
-            <h5>3 BHK</h5> {isShown == false ? null : displayingImage()}
+            <h5>Diamond</h5> {isShown == false ? null : displayingImage()}
           </div>
         </div>
 
@@ -56,10 +59,10 @@ const SiteAndFloor = () => {
           onMouseEnter={() => setIsShown1(true)}
           onMouseLeave={() => setIsShown1(false)}
         >
-          <img src={FloorplanImage} alt="floorPlan" />
+          <img src={FloorplanImage1} alt="floorPlan" />
           <div class="effetGradient">
             {" "}
-            <h5>3 BHK Premium</h5>{" "}
+            <h5>Ruby</h5>{" "}
             {isShown1 == false ? null : displayingImage()}
           </div>
         </div>
@@ -68,10 +71,10 @@ const SiteAndFloor = () => {
           onMouseEnter={() => setIsShown2(true)}
           onMouseLeave={() => setIsShown2(false)}
         >
-          <img src={FloorplanImage} alt="floorPlan" />
+          <img src={FloorplanImage2} alt="floorPlan" />
           <div class="effetGradient">
             {" "}
-            <h5>4 BHK</h5> {isShown2 == false ? null : displayingImage()}
+            <h5>Sapphire</h5> {isShown2 == false ? null : displayingImage()}
           </div>
         </div>
       </div>
@@ -113,7 +116,8 @@ const jaj = css`
   border-radius: 2px;
   box-shadow: 0px 0px 11px 1px rgb(0 0 0 / 25%);
   img{
-    opacity:40%;
+    opacity:15%;
+    height:33vh;
   }
   :hover{
     transform: translateY(-0.5px);
