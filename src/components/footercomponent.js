@@ -3,6 +3,7 @@ import Title from "./titlecomponent"
 import Logo from "../images/logo.png"
 import axios from "axios"
 
+
 const Location = () => {
   const [name, setname] = useState()
   const [email, setemail] = useState()
@@ -777,6 +778,7 @@ const Location = () => {
                   >
                     Submit
                   </button>
+                  
                 </div>
               </div>
             </form>

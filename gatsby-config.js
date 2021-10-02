@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Whitefield, Bangalore`,
-    description: `Adarsh Savana is an Upcoming project by Prestige Group at Bangalore. Get the updated Details of Adarsh Savana price, review, Location, and Contact Us Booking Assistance.`,
+    description: `Adarsh Savana is an Upcoming project by Adarsh at Bangalore. Get the updated Details of Adarsh Savana price, review, Location, and Contact Us Booking Assistance.`,
     author: `@jithendraathipatla`,
   },
   plugins: [

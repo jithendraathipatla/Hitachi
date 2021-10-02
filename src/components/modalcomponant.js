@@ -8,6 +8,7 @@ import { FaCar } from "react-icons/fa"
 import { RiHandCoinLine } from "react-icons/Ri"
 import { css } from "@emotion/core"
 
+
 const Modal = props => {
   const [isopen, setisopen] = useState(false)
   return (

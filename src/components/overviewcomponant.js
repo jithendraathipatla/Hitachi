@@ -24,7 +24,7 @@ const StatefulOverview = () => {
     },
     {
       main_title: "Total Units",
-      sub_heading: "689 Units",
+      sub_heading: "3 Size Plots",
       image: TotalUnits,
     },
     {

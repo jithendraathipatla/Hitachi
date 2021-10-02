@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import emailjs from 'emailjs-com';
+import axios from 'axios';
 
 const Form = () => {
   const [name, setname] = useState()
@@ -27,12 +27,17 @@ const Form = () => {
       template_params: finalData,
     }
 
-    emailjs.sendForm('gmail', 'normal', finalData, 'user_s9VasukllOwTDnR8R0FWD')
-      .then((result) => {
-          console.log(result.text);
-      }, (error) => {
-          console.log(error.text);
-      });
+    axios
+      .post("https://api.emailjs.com/api/v1.0/email/send", data)
+      .then(res => {
+        console.log(res)
+        console.log(res.data)
+        alert("You will now be redirected.")
+        window.location = "/download/"
+      })
+      .catch(e => {
+        console.log(e)
+      })
   }
   return (
     <form
