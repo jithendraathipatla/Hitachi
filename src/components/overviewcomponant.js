@@ -49,7 +49,7 @@ const StatefulOverview = () => {
     },
     {
       main_title: "Location",
-      sub_heading: "Whitefield ECC Road, Bangalore",
+      sub_heading: "Devanahalli ECC Road, Bangalore",
       image: Location,
     },
   ])

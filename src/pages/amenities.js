@@ -8,7 +8,7 @@ import AmenitiesComponent from '../components/amenitiescomponant'
 const Overview = () => {
   return (
     <Layout>
-      <SEO title="Prestige Amenities | Facilities" />
+      <SEO title="Adarsh Amenities | Facilities" />
       <SEO title="Adarsh Savana Gallery" />
       <div style={{ paddingTop: "13vh", textAlign: "center" }}>
         <AmenitiesComponent/>
