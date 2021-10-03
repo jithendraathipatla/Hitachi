@@ -44,7 +44,7 @@ const StatefulOverview = () => {
     },
     {
       main_title: "Possession Date",
-      sub_heading: "Dec 2021",
+      sub_heading: "Oct 2022",
       image: PossessionDate,
     },
     {
