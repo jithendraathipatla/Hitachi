@@ -39,7 +39,7 @@ const SiteAndFloor = () => {
         />
       </div>
       <br />
-      <TitleComponent title="Floor Plans" />
+      <TitleComponent title="Plot Dimensions" />
 
       <div css={floor}>
         <div
@@ -116,7 +116,7 @@ const jaj = css`
   border-radius: 2px;
   box-shadow: 0px 0px 11px 1px rgb(0 0 0 / 25%);
   img{
-    opacity:15%;
+    opacity:60%;
     height:33vh;
   }
   :hover{

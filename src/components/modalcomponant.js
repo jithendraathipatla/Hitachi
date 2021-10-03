@@ -10,7 +10,7 @@ import { css } from "@emotion/core"
 
 
 const Modal = props => {
-  const [isopen, setisopen] = useState(false)
+  const [isopen, setisopen] = useState(props.display)
   return (
     <div className="finaltouch">
       <a onClick={() => setisopen(true)} className={props.class}>
@@ -41,13 +41,13 @@ const Modal = props => {
               padding: "10px 0px",
             }}
           >
-            <a href="tel:9071354854">
+            <a href="tel:7829333322">
               <img
                 src={Callusback}
                 style={{ maringLeft: "10px" }}
                 alt="call back"
               />{" "}
-              <span style={{ color: "white" }}>9071354854</span>
+              <span style={{ color: "white" }}>7829333322</span>
             </a>
           </div>
         </div>

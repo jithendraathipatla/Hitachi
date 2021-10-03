@@ -16,9 +16,10 @@ import SliderComponant from "../components/slider"
 import GalleryComponent from "../components/gallery"
 import SiteAndFloorPlanComponent from "../components/siteandfloor"
 import PricingComponent from '../components/pricing'
+import ModalComponent from '../components/modalcomponant'
 
 const IndexPage = () => {
-  const [isShown, setIsShown] = useState(false)
+  const [isShown, setIsShown] = useState(false);
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(

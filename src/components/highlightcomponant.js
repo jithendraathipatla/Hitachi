@@ -1,4 +1,5 @@
 import React from "react"
+import {HiLocationMarker} from "react-icons/hi"
 
 const HighlightFormTwo = () => {
   return (
@@ -31,7 +32,7 @@ const HighlightFormTwo = () => {
         </span>
       </span>
       <h1>Adarsh Savana</h1>
-      <h4>Yelahanka extension DEVANAHALLI, Bangalore</h4>
+      <h4><HiLocationMarker/> Yelahanka extension DEVANAHALLI <span style={{fontSize: "10px"}}>Bangalore</span></h4>
       <h4>100 Acres of Exclusive Gated Community</h4>
      
       <ul className="pro-spec">
@@ -82,7 +83,7 @@ const HighlightFormTwo = () => {
         </span>
       </span>
 
-      <h3>Luxurious 30*40, 30*50 & 30*60 Sqft plots</h3>
+      <h3>Luxurious 30X40, 30X50 & 30X60 Sqft plots</h3>
       <h2>₹ 42 Lac* Onwards </h2>
     
       <div

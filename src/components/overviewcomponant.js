@@ -23,13 +23,13 @@ const StatefulOverview = () => {
       image: TotalLandArea,
     },
     {
-      main_title: "Total Units",
-      sub_heading: "3 Size Plots",
+      main_title: "Total Plots",
+      sub_heading: "1183 Plots",
       image: TotalUnits,
     },
     {
-      main_title: "Number Of Floors",
-      sub_heading: "N.A",
+      main_title: "Total Odd Plots",
+      sub_heading: "198 odd Plots",
       image: NumberOfFloors,
     },
     {
@@ -39,7 +39,7 @@ const StatefulOverview = () => {
     },
     {
       main_title: "Unit Varients",
-      sub_heading: "Plots",
+      sub_heading: "N.A",
       image: UnitVarients,
     },
     {
@@ -49,7 +49,7 @@ const StatefulOverview = () => {
     },
     {
       main_title: "Location",
-      sub_heading: "Devanahalli ECC Road, Bangalore",
+      sub_heading: "Yelahanka, extension Devanahalli",
       image: Location,
     },
   ])
