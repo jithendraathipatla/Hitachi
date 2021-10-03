@@ -9,7 +9,7 @@ const Overview = () => {
   const data = useStaticQuery(graphql`
     query {
       placeholderImage: file(
-        relativePath: { eq: "adarsh-master-plan.jpg" }
+        relativePath: { eq: "masterplan.jpg" }
       ) {
         childImageSharp {
           fluid(maxWidth: 1000, maxHeight: 500) {

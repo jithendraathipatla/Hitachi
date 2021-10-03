@@ -22,7 +22,7 @@ const Header = () => {
           </div>
           <div css={imgtwo}>
             <Link to="/">
-              <img src={Logo} alt="Waterfprd logo" className="main_logo1" />
+              <img src={Logo} alt="Adarsh Savana" className="main_logo1" />
             </Link>
           </div>
         </div>

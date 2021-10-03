@@ -48,7 +48,7 @@ const Modal = props => {
           }}
         >
           <a href="tel:7829333322" style={{ textDecoration: "none"}}>
-            <img src={Callusback} style={{ maringLeft: "10px" }} />{" "}
+            <img alt="Phone" src={Callusback} style={{ maringLeft: "10px" }} />{" "}
             <span style={{ color: "white" }}>7829333322</span>
           </a>
         </div>

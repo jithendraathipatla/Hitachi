@@ -21,7 +21,7 @@ const Pricing = () => {
            <div onMouseEnter={() => setIsShown2(true)}
              onMouseLeave={() => setIsShown2(false)} css={one}>
                  <div >
-                 <img src={CostDetails}/>
+                 <img src={CostDetails} alt="Cost Details"/>
                  {isShown2 == false ? null : displayingImage()}
                  </div>
                <div css={last}>

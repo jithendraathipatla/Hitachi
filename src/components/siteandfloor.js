@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { css } from "@emotion/core"
 import TitleComponent from "./titlecomponent"
 import LightBoxComponant from "../components/lightbox"
-import MasterPlanImage from "../images/adarsh-master-plan.jpg"
+import MasterPlanImage from "../images/masterplan.jpg"
 import FloorplanImage from "../images/diamond.jpeg"
 import FloorplanImage1 from "../images/ruby.jpeg"
 import FloorplanImage2 from "../images/sapphire.jpeg"
@@ -116,7 +116,6 @@ const jaj = css`
   border-radius: 2px;
   box-shadow: 0px 0px 11px 1px rgb(0 0 0 / 25%);
   img{
-    opacity:60%;
     height:33vh;
   }
   :hover{

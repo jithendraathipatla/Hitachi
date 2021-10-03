@@ -116,6 +116,7 @@ const IndexPage = () => {
         <iframe className="youtube"
           width="69%"
           height="345"
+          title="Savana Video"
           src="https://www.youtube.com/embed/uwhLwVvcYTU"
         ></iframe>
       </div>

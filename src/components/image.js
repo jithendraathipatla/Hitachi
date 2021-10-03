@@ -44,7 +44,7 @@ const Image = () => {
     }
   ]
 
-  return <Img fluid={Floorplansources} />
+  return <Img fluid={Floorplansources} alt="Adsrsh Savana"/>
 }
 
 export default Image
