@@ -31,7 +31,7 @@ const HighlightFormTwo = () => {
         </span>
       </span>
       <h1>Adarsh Savana</h1>
-      <h4>Yelahanka Extension, Bangalore</h4>
+      <h4>Yelahanka extension DEVANAHALLI, Bangalore</h4>
       <h4>100 Acres of Exclusive Gated Community</h4>
      
       <ul className="pro-spec">
@@ -75,8 +75,8 @@ const HighlightFormTwo = () => {
             }}
           >
             {" "}
-            Launch Offer Price : ₹3550/- psf
-            <br /> For First 25 Units ONLY!
+            Launch Offer Price : ₹3500/- psf
+            <br /> For First 100 Units ONLY!
             <br /> Just 5% GST{" "}
           </span>
         </span>
