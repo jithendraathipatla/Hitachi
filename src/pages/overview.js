@@ -10,7 +10,7 @@ import OverviewComponant from '../components/overviewcomponant'
 const Overview = () => {
     return(
         <Layout>
-            <SEO title="Adarsh Savana overview" />
+            <SEO title="Adarsh Savana overview | Plots in Yelahnka" />
             
         
         <div style={{ paddingTop: "10vh", textAlign: "justify" }}>

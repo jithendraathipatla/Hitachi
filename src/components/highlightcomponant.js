@@ -42,7 +42,7 @@ const HighlightFormTwo = () => {
         </li>{" "}
         <li>
           <span className="list-icon">▸</span>{" "}
-          <span className="heading">Possession</span> : Dec 2021*
+          <span className="heading">Possession</span> : Oct 2022*
         </li>{" "}
       </ul>
 
@@ -75,22 +75,22 @@ const HighlightFormTwo = () => {
             }}
           >
             {" "}
-            Launch Offer Price : ₹7250/- psf
+            Launch Offer Price : ₹3550/- psf
             <br /> For First 25 Units ONLY!
             <br /> Just 5% GST{" "}
           </span>
         </span>
       </span>
 
-      <h3>Luxury Plots</h3>
-      <h2>₹ 1.32 Cr* Onwards </h2>
+      <h3>Luxurious 30*40, 30*50 & 30*60 Sqft plots</h3>
+      <h2>₹ 42 Lac* Onwards </h2>
     
       <div
         style={{ border: "1px solid white", textAlign: "center" }}
         className="rera"
       >
         <h5 style={{ textAlign: "center", color: "white" }}>RERA No:</h5>
-        <h6>PRM/KA/RERA/1251/446/PR/200811/003528</h6>
+        <h6>RERA No.: Phase 1: PRM/KA/RERA/1250/303/PR/201001/003613</h6>
       </div>
     </div>
   )

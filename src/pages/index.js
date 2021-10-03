@@ -35,7 +35,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Adarsh Savana | ITPL | Brochure" />
+      <SEO title="Adarsh Savana | Plots in Yelahanka | Plots for sale in Bangalore" />
       <div
         css={one}
         style={{ maxWidth: `100%`, marginBottom: `1.45rem`, marginTop: `50px` }}
@@ -63,32 +63,14 @@ const IndexPage = () => {
           </div>
           <div style={{ textAlign: "justify" }}>
             <span>
-              Prestige Group presents Adarsh Savana at Whitefield ECC Road,a
-              flourishing suburb of Bangalore. Made by the best of
-              extravagances, this milestone will presently wake up at the
-              Whitefield ECC Road.It is an upcoming new residential project located in
-              Whitefield ECC Road Bangalore. And Locations is Pattandur Agrahara,
-              Whitefield ECC Road, Bangalore, Karnataka 560066.It is construction by
-              Prestige Group which is one of the top real-estate firms of the
-              country with projects spread across the cities of India.It Also
-              includes a clubhouse, fully equipped gymnasium, swimming pool,
-              multi-purpose hall, 24/7 Security and much more. Prestige
-              Savana comes with smartly designed homes and ample space that
-              is utilized to give you more in life. And there will be the best
-              International Schools, work places, Quality Health Care
-              Facilities, Shopping Malls, Hotels and Restaurants and much more.
-              Achievements of Prestige Group which are worth mention below:- i)
-              Prestige Group has been commemorated with India’s most trusted
-              brand 2015 award at Hotel Leela, ii)Mumbai by IBC Info Media Corp,
-              USA, in association with the International brand council. And many
-              more Awards.
+            Adarsh savana is luxury plotted development at  Devanahalli North Bangalore, located at prominent location. It’s where all the new development is happening,
+            Adarsh Savana is the awaited residential marvels come up in Airport Road, North Bangalore. Adarsh Savana project is slated across a huge land space of <b>100 acres</b> 
+            and offers premium villa plot of several structures. Its aesthetic designs show classy interiors and top amenities for ultimate satisfaction. Adarsh Savana is giving a <b>Huge Club House of 44,000 Sq.ft</b> with a full loaded amenities
               <br />
               <br />
-              It is construction by Prestige Group which is one of the top
-              real-estate firms of the country with projects spread across the
-              cities of India.It Also includes a clubhouse, fully equipped
-              gymnasium, swimming pool, multi-purpose hall, 24/7 Security and
-              much more.
+             <b>Adarsh savanna is giving 14 Acres of Lush Green Expanse exclusively dedicated for Parks & Amenities. </b>
+             Adarsh Savana future of in North Bangalore is a more than a destination of investors and end-users, alike with mammoth public private partnership preparing towards a future ready micro market.
+              <b>Adarsh Developers</b> has decided to come up with plotted development in north Bangalore in because rapid Infrastructure development, excellent connectivity, and proximity to the International Airport forms the backbone of North Banagaluru’s Growth as a real estate destination.  Vicinity of Adarsh savana is proposed to improvements in arterial Road Network and Metro Connectivity , infrastructure, Commercial , IT hubs , to this locality will only add to the Investment Potential of this sleepy suburban zone. 
             </span>
           </div>
         </div>
