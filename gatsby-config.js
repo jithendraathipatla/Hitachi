@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Devanahalli, Bangalore`,
-    description: `Adarsh Savana is an Upcoming project by Adarsh at Bangalore. Get the updated Details of Adarsh Savana price, review, Location, and Contact Us Booking Assistance.`,
+    title: `Adarsh Savana`,
+    description: `Adarsh Savana is an Upcoming project by Adarsh at Bangalore. Get the updated Details of Adarsh Savana price, review, Location, and Contact Us for Booking Assistance.`,
     author: `@jithendraathipatla`,
   },
   plugins: [
