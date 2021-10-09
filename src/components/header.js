@@ -116,10 +116,10 @@ const imgtwo = css``
 
 const image = css`
   img {
-    width: 227px;
+    width: 177px;
     padding: 10px;
-    height: 44px;
-    margin-top: 2px;
+    height: 59px;
+    margin-top: -10px;
     padding-left: 15px;
     object-fit: cover;
   }

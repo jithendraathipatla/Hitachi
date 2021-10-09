@@ -18,7 +18,7 @@ const Modal = props => {
       </a>
       <Modalabc open={isopen} onClose={() => setisopen(false)}>
         <div style={{ textAlign: "center" }}>
-          <img className="modalImageLogo" src={OfficialLogo} alt="Marq 2.0" />
+          <img className="modalImageLogo" src={OfficialLogo} alt="Adarsh Savana" />
         </div>
         <div css={lastImprovement}>
           <div>

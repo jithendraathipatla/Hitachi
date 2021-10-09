@@ -25,7 +25,7 @@ const Pricing = () => {
                  {isShown2 == false ? null : displayingImage()}
                  </div>
                <div css={last}>
-               <h5>Costing Details</h5>
+               <Modal title="Costing Details" />
                </div>
               
                

@@ -17,6 +17,7 @@ import Piped from '../images/amensvg/valve.svg';
 import Power from '../images/amensvg/battery.svg';
 import Tennis from '../images/amensvg/tennis-court.svg';
 import Wifi from '../images/amensvg/wifi.svg';
+import {css} from '@emotion/core';
 
 
 const Amenities = () => {
@@ -41,16 +42,8 @@ const Amenities = () => {
         img:Secur,
     },
     {
-        name:"Bank/ ATM",
-        img:Bank,
-    },
-    {
         name:"Basketball Court",
         img:Basket,
-    },
-    {
-        name:"Cafeteria",
-        img:Caft,
     },
     {
         name:"Convenience Store",
@@ -69,14 +62,6 @@ const Amenities = () => {
         img:Meditation,
     },
     {
-        name:"Convention Hall",
-        img:Convention,
-    },
-    {
-        name:"Piped Gas",
-        img:Piped,
-    },
-    {
         name:"Power Backup",
         img:Power,
     },
@@ -84,20 +69,12 @@ const Amenities = () => {
         name:"Tennis Court",
         img:Tennis,
     },
-    {
-        name:"WiFi",
-        img:Wifi,
-    },
-    {
-        name:"Garden",
-        img:Lands,
-    }
     ]);
 
     const displayingAmenities = () => {
         return state.map((item,i)=>{
             return(
-                <div key={i} >
+                <div key={i} css={now} >
                    <img src={item.img} alt={item.name} width="50px"/>
                    <h1>{item.name}</h1>
                 </div>
@@ -117,3 +94,13 @@ const Amenities = () => {
 };
 
 export default Amenities;
+
+const now = css`
+box-shadow: 1px 1px 25px #e0e0e0;
+text-align: center;
+padding: 30px 10px;
+ :hover{
+    border: 1px solid green;
+    cursor: pointer;
+ }
+`

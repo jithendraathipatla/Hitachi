@@ -3,8 +3,6 @@ import AwesomeSlider from 'react-awesome-slider';
 import withAutoplay from 'react-awesome-slider/dist/autoplay';
 import 'react-awesome-slider/dist/styles.css';
 import firstSliderImage from '../images/website-banner.jpg';
-import secondSliderImage from '../images/website-banner.jpg';
-import thirdSliderImage from '../images/website-banner.jpg';
 
 const AutoplaySlider = withAutoplay(AwesomeSlider);
 const Slider = () => {

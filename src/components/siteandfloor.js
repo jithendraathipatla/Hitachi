@@ -17,7 +17,7 @@ const SiteAndFloor = () => {
   const displayingImage = () => {
     return (
       <div css={Two}>
-        <Modal title="Complete BreakUp" class="modalbuttonsmall" />
+        <Modal title="VIEW" class="modalbuttonsmall" />
       </div>
     )
   }
@@ -29,7 +29,7 @@ const SiteAndFloor = () => {
   ]
 
   return (
-    <div style={{position:"relative"}}>
+    <div style={{ position: "relative" }}>
       <TitleComponent title="Savana MasterPlan" />
       <div css={image}>
         <LightBoxComponant
@@ -42,40 +42,32 @@ const SiteAndFloor = () => {
       <TitleComponent title="Plot Dimensions" />
 
       <div css={floor}>
-        <div
-          css={jaj}
-          onMouseEnter={() => setIsShown(true)}
-          onMouseLeave={() => setIsShown(false)}
-        >
-          <img src={FloorplanImage} alt="floorPlan" />
-          <div class="effetGradient">
-            {" "}
-            <h5>Diamond</h5> {isShown == false ? null : displayingImage()}
-          </div>
+      <div className="container">
+          <img src={FloorplanImage} alt="floorPlan"/>
+          <div className="overlay">
+          <Modal title="VIEW" class="modalbuttonsmall1" />
+        </div>
+         
+            <h5 className="prestigecopyabcd">Sapphire</h5>{" "}
         </div>
 
-        <div
-          css={jaj}
-          onMouseEnter={() => setIsShown1(true)}
-          onMouseLeave={() => setIsShown1(false)}
-        >
-          <img src={FloorplanImage1} alt="floorPlan" />
-          <div class="effetGradient">
-            {" "}
-            <h5>Ruby</h5>{" "}
-            {isShown1 == false ? null : displayingImage()}
-          </div>
+        <div className="container">
+          <img src={FloorplanImage1} alt="floorPlan"/>
+          <div className="overlay">
+          <Modal title="VIEW" class="modalbuttonsmall1" />
         </div>
-        <div
-          css={jaj}
-          onMouseEnter={() => setIsShown2(true)}
-          onMouseLeave={() => setIsShown2(false)}
-        >
-          <img src={FloorplanImage2} alt="floorPlan" />
-          <div class="effetGradient">
-            {" "}
-            <h5>Sapphire</h5> {isShown2 == false ? null : displayingImage()}
-          </div>
+         
+            <h5 className="prestigecopyabcd">Ruby</h5>{" "}
+         
+        </div>
+        <div className="container">
+          <img src={FloorplanImage2} alt="floorPlan"/>
+          <div className="overlay">
+          <Modal title="VIEW" class="modalbuttonsmall1" />
+        </div>
+      
+            <h5 className="prestigecopyabcd">Sapphire</h5>{" "}
+        
         </div>
       </div>
     </div>
@@ -91,6 +83,7 @@ const floor = css`
   display: flex;
   padding: 40px 5%;
   justify-content: space-between;
+
   @media(max-width:600px){
     display:block;
    }
@@ -109,20 +102,10 @@ const floor = css`
 const Two = css`
   position: absolute;
   top: -200%;
-  left: 30%;
+  left: 0%;
+  bottom: -100%;
+  z-index: 98;
+  width: 100%;
+  height: 100%;
 `
-const jaj = css`
-  border: 1px solid #eeee;
-  border-radius: 2px;
-  box-shadow: 0px 0px 11px 1px rgb(0 0 0 / 25%);
-  img{
-    height:33vh;
-  }
-  :hover{
-    transform: translateY(-0.5px);
-    cursor:pointer;
-  }
-  @media(max-width:600px){
-    margin-bottom:20px;
-   }
-`
+

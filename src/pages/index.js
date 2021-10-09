@@ -16,7 +16,7 @@ import SliderComponant from "../components/slider"
 import GalleryComponent from "../components/gallery"
 import SiteAndFloorPlanComponent from "../components/siteandfloor"
 import PricingComponent from '../components/pricing'
-import ModalComponent from '../components/modalcomponant'
+
 
 const IndexPage = () => {
   const [isShown, setIsShown] = useState(false);
@@ -112,7 +112,7 @@ const IndexPage = () => {
       </div>
       <hr />
       <div style={{textAlign:"center"}}>
-        <Titlecomponent title="Sarvarna Walkthrough" />
+        <Titlecomponent title="Savana Walkthrough" />
         <iframe className="youtube"
           width="69%"
           height="345"
