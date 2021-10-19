@@ -42,32 +42,30 @@ const SiteAndFloor = () => {
       <TitleComponent title="Plot Dimensions" />
 
       <div css={floor}>
-      <div className="container">
-          <img src={FloorplanImage} alt="floorPlan"/>
+        <div className="OverlayContainer">
+          <img src={FloorplanImage} alt="floorPlan" />
+          <div className="overlay"></div>
           <div className="overlay">
-          <Modal title="VIEW" class="modalbuttonsmall1" />
-        </div>
-         
-            <h5 className="prestigecopyabcd">Sapphire</h5>{" "}
+            <Modal title="VIEW" class="overlayfinal" />
+          </div>
+          <h5 className="prestigecopyabcd">Sapphire</h5>{" "}
         </div>
 
-        <div className="container">
-          <img src={FloorplanImage1} alt="floorPlan"/>
+        <div className="OverlayContainer">
+          <img src={FloorplanImage1} alt="floorPlan" />
+          <div className="overlay"></div>
+          <div className="overlay1">
+            <Modal title="VIEW" class="overlayfinal" />
+          </div>
+          <h5 className="prestigecopyabcd">Ruby</h5>{" "}
+        </div>
+        <div className="OverlayContainer">
+          <img src={FloorplanImage2} alt="floorPlan" />
+          <div className="overlay"></div>
           <div className="overlay">
-          <Modal title="VIEW" class="modalbuttonsmall1" />
-        </div>
-         
-            <h5 className="prestigecopyabcd">Ruby</h5>{" "}
-         
-        </div>
-        <div className="container">
-          <img src={FloorplanImage2} alt="floorPlan"/>
-          <div className="overlay">
-          <Modal title="VIEW" class="modalbuttonsmall1" />
-        </div>
-      
-            <h5 className="prestigecopyabcd">Sapphire</h5>{" "}
-        
+            <Modal title="VIEW" class="overlayfinal" />
+          </div>
+          <h5 className="prestigecopyabcd">Sapphire</h5>{" "}
         </div>
       </div>
     </div>
@@ -80,10 +78,11 @@ const image = css`
   text-align: center;
 `
 const floor = css`
-  display: flex;
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr;
   padding: 40px 5%;
+  grid-gap:0 30px;
   justify-content: space-between;
-
   @media(max-width:600px){
     display:block;
    }
@@ -93,10 +92,7 @@ const floor = css`
       font-size: 20px;
       font-weight: 500;
       line-height: 1.2;
-  img {
-    opacity: 40%;
-  }
-
+    }
 `
 
 const Two = css`
@@ -108,4 +104,3 @@ const Two = css`
   width: 100%;
   height: 100%;
 `
-
